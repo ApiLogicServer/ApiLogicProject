@@ -12,13 +12,13 @@ This project is the sample project, provided so you can explore API Logic Server
 
 We looked at approaches for building database systems:
 
-
+<br/>
 
 __Frameworks__
 
-Frameworks like Flask or Django make it easy to build a single endpoint or _Hello World_ page, 
-<br>but a __multi-endpoint__ API and __multi-page__ application would take __weeks__ or more.
+Frameworks like Flask or Django enable you to build a single endpoint or _Hello World_ page, but a __multi-endpoint__ API and __multi-page__ application would take __weeks__ or more.
 
+<br/>
 
 __Low Code Tools__
 
@@ -51,7 +51,7 @@ ApiLogicServer create --project_name=ApiLogicServer-Evalution db_url=
 
 ### What's Already Happened
 
-We've already executed the `ApiLogicServer create` command, and uploaded the project to GitHub, [like this](https://valhuber.github.io/ApiLogicServer/Manage-GitHub/#create-an-api-logic-server-project).  You could clone this and open it locally.  But an even faster way - _with no install_ - is the follow the Evaluation Guide, below.
+We've already executed the `ApiLogicServer create` command, and uploaded the project to GitHub, [like this](https://valhuber.github.io/ApiLogicServer/Manage-GitHub/#create-an-api-logic-server-project).  You could clone this and open it locally.  But an even faster way - _with no install_ - is to follow the Evaluation Guide, below.
 
 &nbsp;
 
@@ -60,7 +60,9 @@ We've already executed the `ApiLogicServer create` command, and uploaded the pro
 The procedure below is the fastest way to explore API Logic Server:
 
 1. Open this project in Codespaces - no install required!
-2. [Run the Tutorial](Tutorial.md).
+2. [Run the Tutorial](Tutorial.md)].  You'll be able to explore 2 key aspects:
+    * Initial Automation - API and UI creation are automated from the data model. So, later, you'd see this level of automation for your own databases.
+    * Customization and Debugging - this sample also includes customizations for extending the API and declaring logic, and how to use VSCode to debug these.  The Tutorial will clearly identify such pre-built customizations.
 
 &nbsp;
 
@@ -77,7 +79,7 @@ Access this GitHub project with Codespaces, as follows:
 
 > You will now see the sample project - running in VSCode, _in the Browser._  That's just what you see... 
 
-> Behind the scenes, Codespaces has requisitioned a cloud machine, and loaded your project with a _complete development environement_ - Python, your dependencies, git, etc.  
+> Behind the scenes, Codespaces has requisitioned a cloud machine, and loaded your project - with a _complete development environment_ - Python, your dependencies, git, etc.  
 
 > You are attached to this machine in your Browser, running VSCode.
 
