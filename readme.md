@@ -16,7 +16,7 @@ Here are some instructions you can use to explore API Logic Server running under
 
 __1. Load your ApiLogicProject-GitHub__
 
-Access this GitHub project with Codespaces:
+Access this GitHub project with Codespaces, as follows:
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.png?raw=true"></figure> 
 
