@@ -1,11 +1,8 @@
-# Tutorial Setup
+# Welcome to API Logic Server
 
-OK, your project is created and open.  You must _Establish Your Python Environment_ to run the Tutorial.
+To explore API Logic Server:
 
-1.  Execute the __Setup and Run__ procedure below, then 
-2. [Open the Tutorial](Tutorial.md)
-
-The standard API Logic Project Readme is included, below.
+* Open this project in Codespaces - no install required!
 
 &nbsp;
 
