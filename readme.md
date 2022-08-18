@@ -38,6 +38,11 @@ Click the globe, as shown above.  This should start your Browser, and the links 
 
 &nbsp;
 
+### Run the Tutorial
+
+Now, [open the Tutorial](Tutorial.md).
+
+&nbsp;
 ---
 
 &nbsp;
@@ -51,38 +56,14 @@ Edit / extend this readme as desired.
 
 &nbsp;&nbsp;
 
-# Setup and Run
+# Appendices
 
-To run your project, the system requires various runtime systems for data access, api, and logic.  These are [included with API Logic Server](https://valhuber.github.io/ApiLogicServer/Architecture-What-Is/).  
+Here is some background about API Logic Server.
 
-This setup is automatic for Codespaces.  If you elect to run locally, the [documentation](https://valhuber.github.io/ApiLogicServer/Install-Express/) explains the setup process. 
-
-&nbsp;
-
-
-## Run
-
-To run your project:
-
-* **Start the API**, either by __IDE launch configurations__ (see below), or by command line: `python api_logic_server_run.py`.
-
-* **Open the Admin App -** either
-
-    * Open your Browser at [http://localhost:5656](http://localhost:5656), or 
-    
-    * Open in VSCode's Simple Browser (as shown below):
-
-        1. Click __View > Command__ to open the Command Palette
-            * Enter command: `Simple Browser: Show`
-            * Specify the URL: `http://localhost:5656`
-        2. Explore the swagger - open another simple Browser with URL `http://localhost:5656/api` 
-            * Note: you can drag windows to arrange your viewing area
-
-<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/ui-admin/run-admin-app.png?raw=true"></figure>
 
 &nbsp;&nbsp;
 
-# Project Information
+## Project Information
 
 | About                    | Info                               |
 |:-------------------------|:-----------------------------------|
@@ -94,7 +75,7 @@ To run your project:
 &nbsp;&nbsp;
 
 
-# Key Technologies
+## Key Technologies
 
 API Logic Server is based on the projects shown below.
 Consult their documentation for important information.
@@ -157,7 +138,7 @@ This generated project also contains a React Admin app:
 
 &nbsp;&nbsp;
 
-# Project Structure
+## Project Structure
 This project was created with the following directory structure:
 
 | Directory | Usage                         | Key Customization File             | Typical Customization                                                                 |
