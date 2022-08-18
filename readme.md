@@ -1,12 +1,15 @@
 # Welcome to API Logic Server
 
-To explore API Logic Server:
+Use API Logic Server to instantly create customizable database web app projects, providing API, Admin UI, and unique declarative business logic.  Created projects are customizable with your IDE, such as VSCode.
 
-* Open this project in Codespaces - no install required!
+This project is the sample project, provided so you can explore API Logic Server:
+
+1. Open this project in Codespaces - no install required!
+2. [open the Tutorial](Tutorial.md).
 
 &nbsp;
 
-### Using Codespaces
+### 1. Open in Codespaces
 
 This GitHub project enables you to use VSCode in your Browser to develop on rapidly deployed docker containers.  It's quite remarkable.  It is entirely interoperable with VSCode operations on your local machine.
 
@@ -38,23 +41,12 @@ Click the globe, as shown above.  This should start your Browser, and the links 
 
 &nbsp;
 
-### Run the Tutorial
+### 2. Run the Tutorial
 
-Now, [open the Tutorial](Tutorial.md).
+Now, [open the Tutorial](Tutorial.md).  You can do this on the current page, or within the opened project.
 
 &nbsp;
 ---
-
-&nbsp;
-
-&nbsp;
-# Readme - API Logic Project
-
-This API Logic Project was created by the API Logic Server with the `ApiLogicServer create` command.  
-
-Edit / extend this readme as desired.
-
-&nbsp;&nbsp;
 
 # Appendices
 
