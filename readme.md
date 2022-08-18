@@ -73,7 +73,7 @@ __1. Load your API Logic Server Project__
 
 Access this GitHub project with Codespaces, as follows:
 
-<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.png?raw=true"></figure> 
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-org-on-codespaces.png?raw=true"></figure> 
 
 > You will now see the sample project - running in VSCode, _in the Browser._  That's just what you see... 
 
