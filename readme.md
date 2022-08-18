@@ -4,8 +4,7 @@ To explore API Logic Server:
 
 * Open this project in Codespaces - no install required!
 
-API Logic Projects are standard, and so are their GitHb / IDE operations.  A typical flow is illustrated below.
-
+&nbsp;
 
 ### Using Codespaces
 
@@ -54,38 +53,12 @@ Edit / extend this readme as desired.
 
 # Setup and Run
 
-To run your project, the system requires various runtime systems for data access, api, and logic.  These are [included with API Logic Server](https://valhuber.github.io/ApiLogicServer/Architecture-What-Is/).  So, to run your project:
+To run your project, the system requires various runtime systems for data access, api, and logic.  These are [included with API Logic Server](https://valhuber.github.io/ApiLogicServer/Architecture-What-Is/).  
 
-1.  __Establish your Python Environment__ to activate these runtime systems
-    * Choose the __either__ the _Local Install_ __or__ the _Docker_ approach below, then 
-2. __Run__
-
+This setup is automatic for Codespaces.  If you elect to run locally, the [documentation](https://valhuber.github.io/ApiLogicServer/Install-Express/) explains the setup process. 
 
 &nbsp;
 
-## Establish Your Python Environment - Local Install
-
-You `requirements.txt` has already been created, so...
-
-```bash title="Install API Logic Server in a Virtual Environment"
-python -m venv venv                        # may require python3 -m venv venv
-venv\Scripts\activate                      # mac/linux: source venv/bin/activate
-python -m pip install -r requirements.txt  # accept "new Virtual environment"
-```
-
-Notes:
-
-* See also the `venv_setup` directory in this API Logic Project.
-
-* If using SqlServer, install `pyodbc`.  Not required for docker-based projects.  For local installs, see the [Quick Start](https://valhuber.github.io/ApiLogicServer/Install-pyodbc/).
-
-&nbsp;
-
-## Establish Your Python Environment - Docker
-
-Your runtime systems are part of Dev Container, which you probably activated when you [opened the project](https://valhuber.github.io/ApiLogicServer/IDE-Execute/).  If you did not accept the "Open in Container" option when you started VSCode, use __View > Command Palette > Remote-Containers: Reopen in Container__.
-
-&nbsp;
 
 ## Run
 
