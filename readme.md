@@ -20,7 +20,13 @@ Access this GitHub project with Codespaces, as follows:
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.png?raw=true"></figure> 
 
-> Codespaces is pretty remarkable.  It requisitions a cloud machine and loads your project with a complete development environement - Python, your dependencies, git, etc.  You then attach to this machine in your Browser, running VSCode.
+> You will now see the sample project - running in VSCode, _in the Browser._  That's just what you see... 
+
+> Behind the scenes, Codespaces has requisitioned a cloud machine, and loaded your project with a _complete development environement_ - Python, your dependencies, git, etc.  
+
+> You are attached to this machine in your Browser, running VSCode.
+
+> Pretty remarkable.
 
 &nbsp;
 
