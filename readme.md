@@ -5,23 +5,24 @@ Use API Logic Server to instantly create customizable database web app projects,
 This project is the sample project, provided so you can explore API Logic Server:
 
 1. Open this project in Codespaces - no install required!
-2. [open the Tutorial](Tutorial.md).
+2. [Run the Tutorial](Tutorial.md).
 
 &nbsp;
 
 ### 1. Open in Codespaces
 
-This GitHub project enables you to use VSCode in your Browser to develop on rapidly deployed docker containers.  It's quite remarkable.  It is entirely interoperable with VSCode operations on your local machine.
-
 Here are some instructions you can use to explore API Logic Server running under CodeSpaces.
 
 
-__1. Load your ApiLogicProject-GitHub__
+__1. Load your API Logic Server Project__
 
 Access this GitHub project with Codespaces, as follows:
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.png?raw=true"></figure> 
 
+> Codespaces is pretty remarkable.  It requisitions a cloud machine and loads your project with a complete development environement - Python, your dependencies, git, etc.  You then attach to this machine in your Browser, running VSCode.
+
+&nbsp;
 
 __2. Configure a Port__
 
