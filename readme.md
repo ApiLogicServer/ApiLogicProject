@@ -4,6 +4,39 @@ To explore API Logic Server:
 
 * Open this project in Codespaces - no install required!
 
+API Logic Projects are standard, and so are their GitHb / IDE operations.  A typical flow is illustrated below.
+
+
+### Using Codespaces
+
+This GitHub project enables you to use VSCode in your Browser to develop on rapidly deployed docker containers.  It's quite remarkable.  It is entirely interoperable with VSCode operations on your local machine.
+
+Here are some instructions you can use to explore API Logic Server running under CodeSpaces.
+
+
+__1. Load your ApiLogicProject-GitHub__
+
+Access this GitHub project with Codespaces:
+
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.png
+?raw=true"></figure> 
+
+__2. Configure a Port__
+
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch.png?raw=true"></figure>
+
+__3. Configure the pre-created `Codespaces-ApiLogicServer` launch configuration__ (see above)
+
+* Make the port __public__
+* Note that the trailing slash, and the `https://` are removed
+
+__4. Start the Server__ using the provided Launch Configuration = `Codespaces-ApiLogicServer`
+
+__5. Open the Browser__
+
+Click the globe, as shown above.  This should start your Browser, and the links on the left (Customer etc) should return data.
+
+
 &nbsp;
 
 ---
