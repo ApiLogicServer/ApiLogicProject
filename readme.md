@@ -18,8 +18,8 @@ __1. Load your ApiLogicProject-GitHub__
 
 Access this GitHub project with Codespaces:
 
-<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.png
-?raw=true"></figure> 
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.png?raw=true"></figure> 
+
 
 __2. Configure a Port__
 
