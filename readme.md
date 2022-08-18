@@ -42,7 +42,7 @@ It runs as a standard pip install, or under Docker. After installation, you use 
 Use API Logic Server to instantly create customizable database web app projects, providing API, Admin UI, and unique declarative business logic.  Created projects are customizable with your IDE, such as VSCode.
 
 ```
-ApiLogicServer create --project_name=ApiLogicServer-Evalution db_url=
+ApiLogicServer create --project_name=ApiLogicServer-Explore db_url=
 ```
 
 > API Logic Server reads your schema, and creates the executable project you see here.
@@ -55,14 +55,12 @@ We've already executed the `ApiLogicServer create` command, and uploaded the pro
 
 &nbsp;
 
-# Evaluation Guide
+# Exploring API Logic Server
 
 The procedure below is the fastest way to explore API Logic Server:
 
 1. Open this project in Codespaces - no install required!
-2. [Run the Tutorial](Tutorial.md)].  You'll be able to explore 2 key aspects:
-    * Initial Automation - API and UI creation are automated from the data model. So, later, you'd see this level of automation for your own databases.
-    * Customization and Debugging - this sample also includes customizations for extending the API and declaring logic, and how to use VSCode to debug these.  The Tutorial will clearly identify such pre-built customizations.
+2. [Run the Tutorial](Tutorial.md)]
 
 &nbsp;
 
@@ -108,6 +106,13 @@ Click the globe, as shown above.  This should start your Browser, and the links 
 ### 2. Run the Tutorial
 
 Now, [open the Tutorial](Tutorial.md).  You can do this on the current page, or within the opened project.
+
+You'll be able to explore 2 key aspects:
+
+* __Initial Automation__ - API and UI creation are automated from the data model. So, later, you'd see this level of automation for your own databases.
+
+* __Customization and Debugging__ - this sample also includes customizations for extending the API and declaring logic, and how to use VSCode to debug these.  The Tutorial will clearly identify such pre-built customizations.
+
 
 &nbsp;
 ---
