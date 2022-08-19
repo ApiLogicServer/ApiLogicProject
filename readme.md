@@ -71,7 +71,7 @@ We've already executed the `ApiLogicServer create` command, and uploaded the pro
 The procedure below is the fastest way to explore API Logic Server:
 
 1. Open this project in Codespaces - no install required!
-2. [Run the Tutorial](Tutorial.md)
+2. Run the Tutorial
 
 Details below.
 
@@ -100,12 +100,20 @@ To access this GitHub project with Codespaces, scroll up to the top of this page
 
 __2. Configure a Port__
 
-<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch.png?raw=true"></figure>
+
+1. Add the Port (5656)
+    * Make the port __public__
+2. Right click, and Copy the Local Address
+
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch-org.png?raw=true"></figure>
 
 __3. Configure the pre-created `Codespaces-ApiLogicServer` launch configuration__ (see above)
 
-* Make the port __public__
-* Note that the trailing slash, and the `https://` are removed
+1. Click the Run button
+2. Select the pre-created `Codespaces-ApiLogicServer` launch configuration
+3. Click the gear to edit the launch configuration
+4. Paste the Copied Local Address into the Launch Configuration
+    * Note that the trailing slash, and the `https://` are removed
 
 __4. Start the Server__ using the provided Launch Configuration = `Codespaces-ApiLogicServer`
 
@@ -118,14 +126,13 @@ Click the globe, as shown above.  This should start your Browser, and the links 
 
 ### 2. Run the Tutorial
 
-Now, [open the Tutorial](Tutorial.md).  You can do this on the current page, or within the opened project.
-
-You'll be able to explore 2 key aspects:
+The Tutorial will enable you to explore 2 key aspects:
 
 * __Initial Automation__ - API and UI creation are automated from the data model. So, later, you'd see this level of automation for your own databases.
 
 * __Customization and Debugging__ - this sample also includes customizations for extending the API and declaring logic, and how to use VSCode to debug these.  The Tutorial will clearly identify such pre-built customizations.
 
+Now, [open the Tutorial](Tutorial.md).  Arrange your windows to conveniently view the Tutorial and Codespaces.
 
 &nbsp;
 ---
