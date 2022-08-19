@@ -1,6 +1,14 @@
 # Welcome to API Logic Server
 
-Use API Logic Server to create customizable database web app projects _instantly_, providing a API, Admin UI, and unique declarative business logic.  Created projects are customizable with your IDE, such as VSCode.
+Use API Logic Server to create customizable database web app projects _instantly_ from your database schema, providing:
+
+* __API__ - an endpoint for each table, with filtering, sorting, pagination and related data access
+
+* __Admin UI__ - multi-page / multi-table apps, with page navigations and automatic joins
+
+* __Logic Automation__ - using unique rules, extensible with Python
+
+Created projects are customizable with your IDE, such as VSCode.
 
 This project is the sample project, provided so you can explore API Logic Server.
 
@@ -8,7 +16,7 @@ This project is the sample project, provided so you can explore API Logic Server
 
 # API Logic Server Background
 
-### Motivation - instant, customizable, address logic
+### Motivation - not instant, propietary IDE, no logic automation
 
 We looked at approaches for building database systems:
 
@@ -30,11 +38,12 @@ These are great for building great UIs, but
 
 &nbsp;
 
-### Our Approach
+### Our Approach: Instant, Customizable, Logic Automation
 
 API Logic Server is an open source Python project, consisting of:
 
 * a set of runtimes (SAFRS API, Flask, SQLAlchemy ORM, rule engine) for project execution, plus 
+
 * a CLI (Command Language Interface) to create executable projects, which can be customized in an IDE such as VSCode or PyCharm
 
 It runs as a standard pip install, or under Docker. After installation, you use the CLI create a project like this:
@@ -51,7 +60,7 @@ ApiLogicServer create --project_name=ApiLogicServer-Explore db_url=
 
 ### What's Already Happened
 
-We've already executed the `ApiLogicServer create` command, and uploaded the project to GitHub, [like this](https://valhuber.github.io/ApiLogicServer/Manage-GitHub/#create-an-api-logic-server-project).  You could clone this and open it locally.  But an even faster way - _with no install_ - is to follow the Evaluation Guide, below.
+We've already executed the `ApiLogicServer create` command, and uploaded the project to GitHub, [like this](https://valhuber.github.io/ApiLogicServer/Manage-GitHub/#create-an-api-logic-server-project).  You could clone this and open it locally.  But an even faster way - _with no install_ - is to follow the Exploration Guide, below.
 
 &nbsp;
 
