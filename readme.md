@@ -53,8 +53,12 @@ It runs as a standard pip install, or under Docker. After installation, you use 
 ```
 ApiLogicServer create --project_name=ApiLogicServer-Explore db_url=
 ```
+where:
 
-> API Logic Server reads your schema, and creates the executable project you see here.
+* `ApiLogicServer-Explore` is the name of your project (a directory)
+* `db_url` is a SQLAlchemy URL identifying your database; the default is pre-supplied sample<br><br>
+
+> :bulb: API Logic Server reads your schema, and creates the executable project you see here.
 
 &nbsp;
 
