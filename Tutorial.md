@@ -112,8 +112,6 @@ Use VS Code's **Project Explorer** to see the project structure:
 
 <figure><img src="https://raw.githubusercontent.com/valhuber/ApiLogicServer/main/images/generated-project.png"></figure>
 
-![image description or alt text](https://raw.githubusercontent.com/i-saumitra/Voice-controlled-MP3-Player/master/screenshot.jpg)
-
 Let's now explore some examples.
 
 ### Admin App Customization
