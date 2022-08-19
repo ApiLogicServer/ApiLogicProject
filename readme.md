@@ -119,7 +119,7 @@ __4. Start the Server__ using the provided Launch Configuration = `Codespaces-Ap
 
 __5. Open the Browser__
 
-Click the globe, as shown above.  This should start your Browser, and the links on the left (Customer etc) should return data.
+* Click the globe, as shown above.  This should start your Browser, and the links on the left (Customer etc) should return data.
 
 
 &nbsp;

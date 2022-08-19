@@ -48,11 +48,8 @@ The prior step established your Python enviroment, so your project is ready to r
 
 ### Admin App: Multi-Page, Multi-Table, Automatic Joins
 
-To run the Admin App, follow these steps:
+After starting the server and browser, explore the Admin App in yuour browser:
 
-1. After completing the Create step, start the server as illustrated below:
-      * Use the pre-built Launch Configuration to start the server and
-      * Start the browser to see your Admin App
 1. Navigate to `Customer`
       * Depending on your screen size, you may need to hit the "hamburger menu" (top left) to see the left menu
 2. Click the Customer row  to see Customer Details
@@ -65,7 +62,7 @@ To run the Admin App, follow these steps:
       * Multi-Table - database relationships (typically from foreign keys) used to build master/detail pages
       * Automatic Joins - the Order Detail table contains `ProductId`, but the system has joined in the `Product Name`.  You can edit the `admin.yaml` file to control such behavior.
 
-7. Close the app (browser), but __leave the server running__
+7. __Leave the server and browser running__
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/ui-admin/run-admin-app.png?raw=true"></figure>
 
@@ -80,13 +77,10 @@ Your API is instantly ready to support ui and integration
 development, available in swagger, as shown below.  JSON:APIs are interesting because they
 are client configurable to **reduce network traffic** and **minimize organizational dependencies.**
 
-The creation process builds not only the API, but swagger so you can explore it.  The Admin App Home page provides a link to the swagger, but it doesn't work in VS Code's simple browser.  So, we'll launch a new Simple Browser, like this:
+The creation process builds not only the API, but also swagger so you can explore it.  The Admin App Home page provides a link to the swagger.  In the browser:
 
-1. Click __View > Command__ to open the Command Palette
-   * Enter command: `Simple Browser: Show`
-   * Specify the URL: `http://localhost:5656/api`
-2. Explore the swagger
-   * Note: you can drag windows to arrange your viewing area
+1. Click __Home__ to open the Home Page
+2. Click "2. API with __oas/Swagger__" to see the swagger
 3. (Leave the swagger and server running)
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/ui-admin/swagger.png?raw=true"></figure>
