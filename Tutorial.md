@@ -68,7 +68,7 @@ After starting the server and browser, explore the Admin App in yuour browser:
 
 &nbsp;&nbsp;
 
-  > **Key Take-away:** instant multi-page / multi-table admin apps, suitable for **back office, and instant agile collaboration.**
+  > :bulb: **Key Take-away:** instant multi-page / multi-table admin apps, suitable for **back office, and instant agile collaboration.**
 
 &nbsp;
 
@@ -86,7 +86,7 @@ The creation process builds not only the API, but also swagger so you can explor
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/ui-admin/swagger.png?raw=true"></figure>
 &nbsp;&nbsp;&nbsp;
 
-  > **Key Take-away:** instant *rich* APIs, with filtering, sorting, pagination and swagger.  **Custom App Dev is unblocked.**
+  > :bulb: **Key Take-away:** instant *rich* APIs, with filtering, sorting, pagination and swagger.  **Custom App Dev is unblocked.**
 
 
 &nbsp;&nbsp;&nbsp;
@@ -149,7 +149,7 @@ To review the implementation:
    1. You can examine the variables, step, etc.
 6. Click **Continue** on the floating debug menu (upper right in screen shot below)
 
-<figure><img src="https://github.com/valhuber/ApiLogicServer/raw/main/images/docker/VSCode/nw-readme/customize-api-1.PNG"></figure>
+<figure><img src="https://github.com/valhuber/ApiLogicServer/raw/main/images/docker/VSCode/nw-readme/customize-api.PNG"></figure>
 
 
 
