@@ -10,6 +10,8 @@ Use API Logic Server to create customizable database web app projects _instantly
 
 Created projects are customizable with your IDE, such as VSCode.
 
+Extensive [documentation is available here](https://valhuber.github.io/ApiLogicServer/).
+
 This project is the sample project, provided so you can explore API Logic Server.
 
 &nbsp;
