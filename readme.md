@@ -18,7 +18,7 @@ This project is the sample project, provided so you can explore API Logic Server
 
 # API Logic Server Background
 
-### Motivation - not instant, propietary IDE, no logic automation
+### Motivation: not instant, propietary IDE, no logic automation
 
 We looked at approaches for building database systems:  
 
@@ -64,7 +64,9 @@ where:
 
 ### What's Already Happened
 
-We've already executed the `ApiLogicServer create` command, and uploaded the project to GitHub, [like this](https://valhuber.github.io/ApiLogicServer/Manage-GitHub/#create-an-api-logic-server-project).  You could clone this and open it locally.  But an even faster way - _with no install_ - is to follow the Exploration Guide, below.
+We've already executed the `ApiLogicServer create` command, and uploaded the project to GitHub, [like this](https://valhuber.github.io/ApiLogicServer/Manage-GitHub/#create-an-api-logic-server-project).  You could clone this and open it locally.  
+
+But an even faster way - _with no install_ - is to follow the Exploration Guide, below.
 
 &nbsp;
 
