@@ -128,7 +128,7 @@ There is no code for the Admin app - it's behavior is declared in the `admin.yam
 
 &nbsp;&nbsp;&nbsp;
 
-  > **Key Take-away:** you can alter labels, which fields are displayed and their order, etc -- via a simple model.  No need to learn a new framework, or deal with low-level code or html.
+  > :bulb: **Key Take-away:** you can alter labels, which fields are displayed and their order, etc -- via a simple model.  No need to learn a new framework, or deal with low-level code or html.
 
 
 &nbsp;&nbsp;&nbsp;
@@ -149,7 +149,7 @@ To review the implementation:
    1. You can examine the variables, step, etc.
 6. Click **Continue** on the floating debug menu (upper right in screen shot below)
 
-<figure><img src="https://github.com/valhuber/ApiLogicServer/raw/main/images/docker/VSCode/nw-readme/customize-api.PNG"></figure>
+<figure><img src="https://github.com/valhuber/ApiLogicServer/raw/main/images/docker/VSCode/nw-readme/customize-api-1.PNG"></figure>
 
 
 

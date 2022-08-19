@@ -20,7 +20,7 @@ This project is the sample project, provided so you can explore API Logic Server
 
 ### Motivation - not instant, propietary IDE, no logic automation
 
-We looked at approaches for building database systems:
+We looked at approaches for building database systems:  
 
 <br/>
 
@@ -49,8 +49,6 @@ API Logic Server is an open source Python project, consisting of:
 * a CLI (Command Language Interface) to create executable projects, which can be customized in an IDE such as VSCode or PyCharm
 
 It runs as a standard pip install, or under Docker. After installation, you use the CLI create a project like this:
-
-Use API Logic Server to instantly create customizable database web app projects, providing API, Admin UI, and unique declarative business logic.  Created projects are customizable with your IDE, such as VSCode.
 
 ```
 ApiLogicServer create --project_name=ApiLogicServer-Explore db_url=
