@@ -84,11 +84,11 @@ Here are some instructions you can use to explore API Logic Server running under
 
 __1. Load your API Logic Server Project__
 
-Access this GitHub project with Codespaces, as follows:
+To access this GitHub project with Codespaces, scroll up to the top of this page:
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-org-on-codespaces.png?raw=true"></figure> 
 
-> You will now see the sample project - running in VSCode, _in the Browser._  That's just what you see... 
+> You will now see the sample project - running in VSCode, _in the Browser._  That's just what you _see..._
 
 > Behind the scenes, Codespaces has requisitioned a cloud machine, and loaded your project - with a _complete development environment_ - Python, your dependencies, git, etc.  
 
