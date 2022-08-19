@@ -71,7 +71,9 @@ We've already executed the `ApiLogicServer create` command, and uploaded the pro
 The procedure below is the fastest way to explore API Logic Server:
 
 1. Open this project in Codespaces - no install required!
-2. [Run the Tutorial](Tutorial.md)]
+2. [Run the Tutorial](Tutorial.md)
+
+Details below.
 
 &nbsp;
 
