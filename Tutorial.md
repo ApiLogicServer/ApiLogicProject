@@ -172,11 +172,11 @@ To review the implementation:
 ### Logic
 API and UI automation are impressive answers to _familiar_ challenges.  Logic automation is a _unique_ answer to a significant and unaddressed problem:
 
-> For transaction systems, backend constraint and derivation logic is often nearly *half* the system.  This is not addressed by conventional approaches of "your code goes here".
+> :exclamation: For transaction systems, backend constraint and derivation logic is often nearly *half* the system.  This is not addressed by conventional approaches of "your code goes here".
  
 The *logic* portion of API *Logic* server is a declarative approach - you declare spreadsheet-like rules for multi-table constraints and derivations.  The 5 rules shown below represent the same logic as 200 lines of Python - a remarkable **40X.**
 
-> Since they automate all the re-use and dependency management, rules are [40X more concise](https://github.com/valhuber/LogicBank/wiki/by-code) than code.  Like a spreadsheet, rules __watch__ for changes, __react__ by automatically executing relevant rules, which can __chain__ to activate other rules; you can [visualize the process here](https://valhuber.github.io/ApiLogicServer/Logic-Operation/#watch-react-chain).
+> :bulb: Since they automate all the re-use and dependency management, rules are [40X more concise](https://github.com/valhuber/LogicBank/wiki/by-code) than code.  Like a spreadsheet, rules __watch__ for changes, __react__ by automatically executing relevant rules, which can __chain__ to activate other rules; you can [visualize the process here](https://valhuber.github.io/ApiLogicServer/Logic-Operation/#watch-react-chain).
 
 [Logic](https://valhuber.github.io/ApiLogicServer/Logic-Why/) consists of rules **and** conventional Python code.  Explore it like this:
 
