@@ -10,7 +10,7 @@ This Tutorial is designed for these scenarios:
 
 In this tutorial, we will explore:
 
-* **create** - we will briefly review what actually happened udring the create process
+* **create** - we will briefly review what actually happened during the create process
 
 * **run** - we will first run the Admin App and the JSON:API.  These will illustrate how automation creates an app and API from a data model.  You can then infer what you'd get for one of your databases.
 
@@ -28,32 +28,36 @@ This tutorial illustrates some key concepts:
 Observe that the files for the Admin App and API are models that describe _what, not how_.  This makes it much easier to understand than large amounts of generated code.
 
 ### Preserve Customizations
-The system is designed to enable `rebuild`, so you can iterate the data model - _without losing your customization._  In general, such customizations are kept in separate files from the model files.  So, model files can be rebuilt without affecting customzation files.
+The system is designed to enable `rebuild`, so you can iterate the data model - _without losing your customization._  In general, such customizations are kept in separate files from the model files.  So, model files can be rebuilt without affecting customization files.
+
+### Logic Automation
+A unique feature of API Logic Server is provision for spreadsheet-like rules for multi-table derivations and constraints, extensible with Python.
 
 &nbsp;
 
 
 ## Create
 
-&nbsp;
-
-[![Using VS Code](https://github.com/valhuber/apilogicserver/wiki/images//creates-and-runs-video.png?raw=true?raw=true)](https://youtu.be/tOojjEAct4M "Using VS Code with the ApiLogicServer container - click for video")
+[![Using VS Code](https://github.com/valhuber/apilogicserver/wiki/images//creates-and-runs-video.jpg?raw=true?raw=true)](https://youtu.be/tOojjEAct4M "Using VS Code with the ApiLogicServer container - click for video")
 
 The diagram above summarizes the create / run / customize process.  When you issue the `ApiLogicServer create` CLI command, the system reads your schema and creates a customizable API Logic Project.
 
-It's a video - click to view.
+> It's a video - click to view.
 
 &nbsp;
 
 ## Create and establish Python Environment
 
-After creation, you must establish your Python environment.  Please  see [Quick Start > Express Install](https://valhuber.github.io/ApiLogicServer/IDE-Execute/), which explains how to:
+After creation, you must establish your Python environment:
 
-1. Install API Logic Server
-2. Create the sample Tutorial API Logic Server Project
-3. Open it in your IDE
-4. Prepare the projects' Python environment
-5. Start the Server, and the Admin App in the Browser
+* This is already complete for Codespace users
+* Other users - please  see [Quick Start > Express Install](https://valhuber.github.io/ApiLogicServer/IDE-Execute/), which explains how to:
+
+   1. Install API Logic Server
+   2. Create the sample Tutorial API Logic Server Project
+   3. Open it in your IDE
+   4. Prepare the projects' Python environment
+   5. Start the Server, and open the Admin App in the Browser
 
 
 &nbsp;
