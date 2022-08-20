@@ -72,7 +72,7 @@ But an even faster way - _with no install_ - is to follow the Exploration Guide,
 
 # Exploring API Logic Server
 
-The procedure below is the fastest way to explore API Logic Server is to open it in Codespaces and run the Tutorial, as described below.
+The fastest way to explore API Logic Server is to open it in Codespaces and run the Tutorial, as described below.
 org
 &nbsp;
 
@@ -84,7 +84,7 @@ Here are some instructions you can use to explore API Logic Server running under
 
 __1. Load your API Logic Server Project__
 
-To access this GitHub project with Codespaces, [__open this page in a new window__](https://github.com/ApiLogicServer/ApiLogicServer-Explore):
+To access this GitHub project with Codespaces, [__open this page in a new window__](https://github.com/ApiLogicServer/ApiLogicServer-Explore), and follow the directions below:
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-org-on-codespaces.png?raw=true"></figure> 
 
@@ -115,7 +115,7 @@ __3. Configure the pre-created `Codespaces-ApiLogicServer` launch configuration_
 4. Paste the Copied Local Address into the Launch Configuration
     * Note that the trailing slash, and the `https://` are removed
 
-__4. Start the Server__ using the provided Launch Configuration = `Codespaces-ApiLogicServer`
+__4. Start the Server__ using the provided Launch Configuration: `Codespaces-ApiLogicServer`
 
 __5. Open the Browser__
 
@@ -132,7 +132,7 @@ The Tutorial will enable you to explore 2 key aspects:
 
 * __Customization and Debugging__ - this sample also includes customizations for extending the API and declaring logic, and how to use VSCode to debug these.  The Tutorial will clearly identify such pre-built customizations.
 
-Now, [open the Tutorial](Tutorial.md).  Arrange your windows to conveniently view the Tutorial and Codespaces.
+Now, [open the Tutorial](Tutorial.md).
 
 &nbsp;
 ---
