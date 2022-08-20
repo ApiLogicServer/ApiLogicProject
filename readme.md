@@ -18,7 +18,7 @@ This project is the sample project, provided so you can explore API Logic Server
 
 # API Logic Server Background
 
-### Motivation: not instant, propietary IDE, no logic automation
+### Motivation: not instant, proprietary IDE, no logic automation
 
 We looked at approaches for building database systems:  
 
@@ -64,7 +64,7 @@ where:
 
 ### What's Already Happened
 
-We've already executed the `ApiLogicServer create` command, and uploaded the project to GitHub, [like this](https://valhuber.github.io/ApiLogicServer/Manage-GitHub/#create-an-api-logic-server-project).  You could clone this and open it locally.  
+We've already executed the `ApiLogicServer create` command, and uploaded the project to GitHub in the usual manner.  You could clone this and open it locally.  
 
 But an even faster way - _with no install_ - is to follow the Exploration Guide, below.
 
@@ -72,12 +72,7 @@ But an even faster way - _with no install_ - is to follow the Exploration Guide,
 
 # Exploring API Logic Server
 
-The procedure below is the fastest way to explore API Logic Server:
-
-1. Open this project in Codespaces - no install required!
-2. Run the Tutorial
-
-Details below.
+The procedure below is the fastest way to explore API Logic Server is to open it in Codespaces and run the Tutorial, as described below.
 
 &nbsp;
 
@@ -85,6 +80,7 @@ Details below.
 
 Here are some instructions you can use to explore API Logic Server running under CodeSpaces.
 
+&nbsp;
 
 __1. Load your API Logic Server Project__
 
@@ -92,13 +88,13 @@ To access this GitHub project with Codespaces, scroll up to the top of this page
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-org-on-codespaces.png?raw=true"></figure> 
 
-> You will now see the sample project - running in VSCode, _in the Browser._  That's just what you _see..._
+> You will now see the sample project - running in VSCode, _in the Browser._  But that's just what you _see..._
 
 > Behind the scenes, Codespaces has requisitioned a cloud machine, and loaded your project - with a _complete development environment_ - Python, your dependencies, git, etc.  
 
 > You are attached to this machine in your Browser, running VSCode.
 
-> Pretty remarkable.
+> :trophy: Pretty remarkable.
 
 &nbsp;
 
