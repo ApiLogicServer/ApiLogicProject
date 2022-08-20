@@ -139,8 +139,7 @@ There is no code for the Admin app - it's behavior is declared in the `admin.yam
 1. Open **Explorer > ui/admin/admin.yaml**
    * Find and alter the string `- label: 'Placed Order List*'` (e.g, make it plural)
    * Click Save
-2. Launch the app: [http://localhost:5656](http://localhost:5656)
-3. Load the updated configuration: click __Configuration > Reset__
+3. Load the updated configuration: in the running Admin App, click __Configuration > Reset__ and __Apply__
 4. Revisit **Customer > Order** to observe the new label
 
 &nbsp;&nbsp;&nbsp;
@@ -168,14 +167,10 @@ To review the implementation:
 
 <figure><img src="https://github.com/valhuber/ApiLogicServer/raw/main/images/docker/VSCode/nw-readme/customize-api.png"></figure>
 
-https://raw.github.com/Username/Repository-Name/master/Directory-Inside-Repository/image.png
-
-<figure><img src=https://raw.github.com/valhuber/ApiLogicServer.wiki/images/docker/VSCode/nw-readme/customize-api.png></figure>
-
 &nbsp;
 
 ### Logic
-API and UI automation are impressive answers to familiar challenges.  Logic automation is a _unique_ answer to a significant and unaddressed problem:
+API and UI automation are impressive answers to _familiar_ challenges.  Logic automation is a _unique_ answer to a significant and unaddressed problem:
 
 > For transaction systems, backend constraint and derivation logic is often nearly *half* the system.  This is not addressed by conventional approaches of "your code goes here".
  
