@@ -12,13 +12,13 @@ Created projects are customizable with your IDE, such as VSCode.
 
 Extensive [documentation is available here](https://valhuber.github.io/ApiLogicServer/).
 
-This project is the sample project, provided so you can explore API Logic Server.
+This project is the sample project, provided so you can explore API Logic Server, with __zero install.__
 
 &nbsp;
 
 # API Logic Server Background
 
-### Motivation: not instant, proprietary IDE, no logic automation
+### Motivation
 
 We looked at approaches for building database systems:  
 
@@ -34,21 +34,21 @@ __Low Code Tools__
 
 These are great for building great UIs, but
 
-* Want a multi-page app -- __no screen painting__
-* Want to __preserve dev tools__ - VSCode, PyCharm, git, etc
+* Want a multi-page app -- __without requiring detail layout for each screen__
+* Want to __preserve standard dev tools__ - VSCode, PyCharm, git, etc
 * Need an answer for __backend logic__ (it's nearly half the effort)
 
 &nbsp;
 
-### Our Approach: Instant, Customizable, Logic Automation
+### Our Approach: Instant, Standards-based Customization, Logic Automation
 
 API Logic Server is an open source Python project, consisting of:
 
-* a set of runtimes (SAFRS API, Flask, SQLAlchemy ORM, rule engine) for project execution, plus 
+* a set of runtimes (api, user interface, data access) for project execution, plus 
 
 * a CLI (Command Language Interface) to create executable projects, which can be customized in an IDE such as VSCode or PyCharm
 
-It runs as a standard pip install, or under Docker. After installation, you use the CLI create a project like this:
+It runs as a standard Python (`pip`) install, or under Docker. After installation, you use the CLI create a project like this:
 
 ```
 ApiLogicServer create --project_name=ApiLogicServer-Explore db_url=
@@ -84,7 +84,7 @@ Here are some instructions you can use to explore API Logic Server running under
 
 __1. Load your API Logic Server Project__
 
-To access this GitHub project with Codespaces, scroll up to the top of this page:
+To access this GitHub project with Codespaces, [__open this page in a new window__](https://github.com/ApiLogicServer/ApiLogicServer-Explore):
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-org-on-codespaces.png?raw=true"></figure> 
 
