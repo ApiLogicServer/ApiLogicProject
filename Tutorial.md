@@ -28,7 +28,7 @@ This tutorial illustrates some key concepts:
 Observe that the files for the Admin App and API are models that describe _what, not how_.  This makes it much easier to understand than large amounts of generated code.
 
 ### Preserve Customizations
-The system is designed to enable `rebuild`, so you can iterate the data model - _without losing your customization._  In general, such customizations are kept in separate files from the model files.  So, model files can be rebuilt without affecting customization files.
+The system is designed to enable `rebuild`, so you can iterate the data model - _without losing your customizations._  In general, such customizations are kept in separate files from the model files.  So, the model files can be rebuilt without affecting customization files.
 
 ### Logic Automation
 A unique feature of API Logic Server is provision for spreadsheet-like rules for multi-table derivations and constraints, extensible with Python.
