@@ -169,7 +169,7 @@ To review the implementation:
    1. You can examine the variables, step, etc.
 6. Click **Continue** on the floating debug menu (upper right in screen shot below)
 
-<figure><img src="https://github.com/valhuber/ApiLogicServer/raw/main/images/docker/VSCode/nw-readme/customize-api.png"></figure>
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/tutorial/customize-api.png?raw=true"></figure>
 
 &nbsp;
 
@@ -191,7 +191,7 @@ The *logic* portion of API *Logic* server is a declarative approach - you declar
 3. Using swagger, re-execute the `add_order` endpoint
 4. When you hit the breakpoint, expand `row` VARIABLES list (top left)
 
-<figure><img src="https://github.com/valhuber/ApiLogicServer/raw/main/images/docker/VSCode/nw-readme/declare-logic.png"></figure>
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/tutorial/debug-logic.png?raw=true"></figure>
 
 Internally, rules execute by listening to SQLAlchemy `before_flush` events, as [described here](https://valhuber.github.io/ApiLogicServer/Logic-Operation/#how-usage-and-operation-overview).
 
