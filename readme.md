@@ -86,7 +86,7 @@ __1. Load your API Logic Server Project__
 
 To access this GitHub project with Codespaces, [__open this page in a new window__](https://github.com/ApiLogicServer/ApiLogicServer-Explore), and follow the directions below:
 
-<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-org-on-codespaces.png?raw=true"></figure> 
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.jpg?raw=true"></figure> 
 
 > You will now see the sample project - running in VSCode, _in the Browser._  But that's just what you _see..._
 
@@ -105,7 +105,7 @@ __2. Configure a Port__
     * Make the port __public__
 2. Right click, and Copy the Local Address
 
-<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch-org.png?raw=true"></figure>
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch.png?raw=true"></figure>
 
 __3. Configure the pre-created `Codespaces-ApiLogicServer` launch configuration__ (see above)
 
