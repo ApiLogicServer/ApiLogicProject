@@ -19,7 +19,6 @@ In this tutorial, we will explore:
 &nbsp;&nbsp;
 
 ---
-&nbsp;&nbsp;
 
 ## Key Underlying Concepts
 This tutorial illustrates some key concepts:
@@ -28,13 +27,14 @@ This tutorial illustrates some key concepts:
 Observe that the files for the Admin App and API are models that describe _what, not how_.  This makes it much easier to understand than large amounts of generated code.
 
 ### Preserve Customizations
-The system is designed to enable `rebuild`, so you can iterate the data model - _without losing your customization._  In general, such customizations are kept in separate files from the model files.  So, model files can be rebuilt without affecting customization files.
+The system is designed to enable `rebuild`, so you can iterate the data model - _without losing your customizations._  In general, such customizations are kept in separate files from the model files.  So, the model files can be rebuilt without affecting customization files.
 
 ### Logic Automation
 A unique feature of API Logic Server is provision for spreadsheet-like rules for multi-table derivations and constraints, extensible with Python.
 
-&nbsp;
+&nbsp;&nbsp;
 
+---
 
 ## Create
 
@@ -60,7 +60,9 @@ After creation, you must establish your Python environment:
    5. Start the Server, and open the Admin App in the Browser
 
 
-&nbsp;
+&nbsp;&nbsp;
+
+---
 
 ## Run
 
@@ -110,8 +112,9 @@ The creation process builds not only the API, but also swagger so you can explor
 
   > :bulb: **Key Take-away:** instant *rich* APIs, with filtering, sorting, pagination and swagger.  **Custom App Dev is unblocked.**
 
-
 &nbsp;&nbsp;
+
+---
 
 ## Customize and Debug
 
@@ -153,7 +156,6 @@ There is no code for the Admin app - it's behavior is declared in the `admin.yam
 
 &nbsp;&nbsp;&nbsp;
 
-
 ### API Customization
 
 While a standards-based API is a great start, sometimes you need custom endpoints tailored exactly to your business requirement.  You can create these as shown below, where we create an additional endpoint for `add_order`.
@@ -169,7 +171,7 @@ To review the implementation:
    1. You can examine the variables, step, etc.
 6. Click **Continue** on the floating debug menu (upper right in screen shot below)
 
-<figure><img src="https://github.com/valhuber/ApiLogicServer/raw/main/images/docker/VSCode/nw-readme/customize-api.png"></figure>
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/tutorial/customize-api.png?raw=true"></figure>
 
 &nbsp;
 
@@ -191,14 +193,15 @@ The *logic* portion of API *Logic* server is a declarative approach - you declar
 3. Using swagger, re-execute the `add_order` endpoint
 4. When you hit the breakpoint, expand `row` VARIABLES list (top left)
 
-<figure><img src="https://github.com/valhuber/ApiLogicServer/raw/main/images/docker/VSCode/nw-readme/declare-logic.png"></figure>
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/tutorial/debug-logic.png?raw=true"></figure>
 
 Internally, rules execute by listening to SQLAlchemy `before_flush` events, as [described here](https://valhuber.github.io/ApiLogicServer/Logic-Operation/#how-usage-and-operation-overview).
 
 > This rule architecture ensures that rules are always re-used across all client applications and integrations.  This avoids common "fat client" approaches that embed logic in user interface controllers, which leads to replication and inconsistency.
 
-
 &nbsp;&nbsp;
+
+---
 
 ## Test
 
@@ -216,7 +219,9 @@ TL;DR - features and test scripts are predefined in the sample; to run them (wit
 
 For more information, see [Testing with Behave](https://valhuber.github.io/ApiLogicServer/Behave/).
 
-&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
+
+---
 
 ## Wrap up
 Let's recap what you've seen:
@@ -233,6 +238,6 @@ Explore the [Logic Tutorial](https://valhuber.github.io/ApiLogicServer/Logic-Tut
 
 
 ### Docker cleanup
-VS Code leaves the container and image definitions intact, so you can quickly resume your session.  You may wish to delete this. it will look something like `vsc-ApiLogicProject...`.
+VS Code leaves the container and image definitions intact, so you can quickly resume your session.  You may wish to delete this. It will look something like `vsc-ApiLogicProject...`.
 
 &nbsp;&nbsp;&nbsp;

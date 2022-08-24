@@ -3,7 +3,7 @@
 """
 ==============================================================================
 
-    This file starts the API Logic Server (v 5.03.34, August 18, 2022 07:24:31):
+    This file starts the API Logic Server (v 5.03.35, August 18, 2022 07:24:31):
         $ python3 api_logic_server_run.py [--help  # host, port arguments]
 
     Then, access the Admin App and API via the Browser, eg:  
@@ -323,6 +323,11 @@ def get_args():
                 port = args.port_p
                 flask_host = args.flask_host_p
                 swagger_host = args.swagger_host_p
+        if swagger_host.startswith("https://"):
+            swagger_host = swagger_host[8:]
+        if swagger_host.endswith("/"):
+            swagger_host = swagger_host[0:len(swagger_host)-1]
+
 
     return flask_host, swagger_host, port, swagger_port, http_type, verbose, create_and_run
 
