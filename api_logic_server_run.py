@@ -426,7 +426,6 @@ if __name__ == "__main__":
 
     if os.getenv('CODESPACES'):
         app_logger.info(f'Server starting on Codespaces -- explore sample data and API at:')
-        # app_logger.info(f'.. Run locally at http://localhost:5656')
         app_logger.info(f'..  {http_type}://{swagger_host}/\n')
     else:
         app_logger.info(f'Server starting -- '
