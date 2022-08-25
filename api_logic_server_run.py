@@ -415,7 +415,7 @@ flask_app, safrs_api = create_app(swagger_host = swagger_host, swagger_port = sw
 flask_events(flask_app)
 
 if __name__ == "__main__":
-    msg = f'API Logic Project Loaded (not WSGI), version 5.03.34, configured for http://{swagger_host}:{port}\n'
+    msg = f'API Logic Project Loaded (not WSGI), version 5.03.34, configured for {http_type}://{swagger_host}:{port}\n'
     if is_docker():
         msg += f' (running from docker container at {flask_host} - may require refresh)\n'
     app_logger.info(f'\n{msg}')
@@ -425,8 +425,9 @@ if __name__ == "__main__":
                     f'open it with your IDE at {project_dir}\n')
 
     if os.getenv('CODESPACES'):
-        app_logger.info(f'Server starting on Codespaces -- '
-                f'explore sample data and API on codespaces, swagger_host: {http_type}://{swagger_host}/\n')
+        app_logger.info(f'Server starting on Codespaces -- explore sample data and API at:')
+        # app_logger.info(f'.. Run locally at http://localhost:5656')
+        app_logger.info(f'..  {http_type}://{swagger_host}/\n')
     else:
         app_logger.info(f'Server starting -- '
                 f'explore sample data and API on swagger_host: {http_type}://{swagger_host}:{port}/\n')
