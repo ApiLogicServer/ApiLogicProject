@@ -425,7 +425,7 @@ if __name__ == "__main__":
                     f'open it with your IDE at {project_dir}\n')
 
     if os.getenv('CODESPACES'):
-        app_logger.info(f'Server starting on Codespaces -- explore sample data and API at:')
+        app_logger.info(f'Server starting on Codespaces ({flask_host}:{port}) -- explore sample data and API at:')
         app_logger.info(f'..  {http_type}://{swagger_host}/\n')
     else:
         app_logger.info(f'Server starting -- '
