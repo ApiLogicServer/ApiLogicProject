@@ -82,9 +82,14 @@ Here are some instructions you can use to explore API Logic Server running under
 
 &nbsp;
 
-__1. Load your API Logic Server Project__
+__1. No signup required__ - use your GitHub account
 
-To access this GitHub project with Codespaces, [__open this page in a new window__](https://github.com/ApiLogicServer/ApiLogicServer-Explore), and follow the directions below:
+__2. Load the ApiLogicProject from GitHub__
+
+To access this GitHub project with Codespaces
+
+1. [__Open this page _in a new window___](https://github.com/ApiLogicServer/ApiLogicServer-Explore), and 
+2. Click __Open > Codespaces__ as shown below:
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.jpg?raw=true"></figure> 
 
@@ -98,29 +103,40 @@ To access this GitHub project with Codespaces, [__open this page in a new window
 
 &nbsp;
 
-__2. Configure a Port__
+__3. Add and Configure a Port__
 
+Referring to the figure below:
 
 1. Add the Port (5656)
-    * Make the port __public__
-2. Right click, and Copy the Local Address
+2. Make the port __public__
+
+__4. Start the Server__
+
+* Use the pre-defined Launch Configuration
+
+__5. Start the Browser__
+
+* Click the globe, as shown below.  This should start your Browser, and the links on the left (Customer etc) should return data.
+
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch-simple.jpg?raw=true"></figure>
+
+
+<details markdown>
+<summary>If errors, use this procedure</summary>
+
+The above procedure is simplified, based on some assumptions about Codespaces.  If the Browser fails to launch, try the following for explicit specification of the forwarded port:
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch.png?raw=true"></figure>
 
-__3. Configure the pre-created `Codespaces-ApiLogicServer` launch configuration__ (see above)
+__4. Configure the pre-created `Codespaces-ApiLogicServer` launch configuration__ (see above)
 
-1. Click the Run button
-2. Select the pre-created `Codespaces-ApiLogicServer` launch configuration
-3. Click the gear to edit the launch configuration
-4. Paste the Copied Local Address into the Launch Configuration
-    * Note that the trailing slash, and the `https://` are removed
+__5. Start the Server__ using the provided Launch Configuration = `Codespaces-ApiLogicServer`
 
-__4. Start the Server__ using the provided Launch Configuration: `Codespaces-ApiLogicServer`
+__6. Open the Browser__
 
-__5. Open the Browser__
+Click the globe, as shown above.  This should start your Browser, and the links on the left (Customer etc) should return data.
 
-* Click the globe, as shown above.  This should start your Browser, and the links on the left (Customer etc) should return data.
-
+</details>
 
 &nbsp;
 
