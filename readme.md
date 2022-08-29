@@ -1,18 +1,23 @@
 # Welcome to API Logic Server
 
-Use API Logic Server to create customizable database web app projects _instantly_ from your database schema, providing:
+API Logic Server creates __customizable database web app projects:__
 
-* __API__ - an endpoint for each table, with filtering, sorting, pagination and related data access
+* __Creation is Instant:__ create projects with a single command
 
-* __Admin UI__ - multi-page / multi-table apps, with page navigations and automatic joins
+* __Projects are Highly Functional:__
 
-* __Logic Automation__ - using unique rules, extensible with Python
+    * __API__ - an endpoint for each table, with filtering, sorting, pagination and related data access
 
-Created projects are customizable with your IDE, such as VSCode.
+    * __Admin UI__ - multi-page / multi-table apps, with page navigations and automatic joins
 
-Extensive [documentation is available here](https://valhuber.github.io/ApiLogicServer/).
 
-This project is the sample project, provided so you can explore API Logic Server, with __zero install.__
+* __Projects are Customizable, using _your IDE_:__ such as VSCode, PyCharm, etc, for familiar edit/debug services
+
+* __Business Logic Automation:__ using unique rules, extensible with Python
+
+Extensive [documentation is available here](https://valhuber.github.io/ApiLogicServer/) - checkout the [FAQs](https://valhuber.github.io/ApiLogicServer/FAQ-Frameworks/).
+
+This is the sample project, provided so you can explore API Logic Server in Codespaces -- __zero install.__
 
 &nbsp;
 
@@ -58,7 +63,7 @@ where:
 * `ApiLogicServer-Explore` is the name of your project (a directory)
 * `db_url` is a SQLAlchemy URL identifying your database; the default is pre-supplied sample<br><br>
 
-> :bulb: API Logic Server reads your schema, and creates the executable project you see here.
+> :bulb: API Logic Server reads your schema, and creates  executable, customizable projects.  Let's explore the sample now.
 
 &nbsp;
 
@@ -70,10 +75,10 @@ But an even faster way - _with no install_ - is to follow the Exploration Guide,
 
 &nbsp;
 
-# Exploring API Logic Server
+# Exploration Guide
 
 The fastest way to explore API Logic Server is to open it in Codespaces and run the Tutorial, as described below.
-org
+
 &nbsp;
 
 ### 1. Open in Codespaces
@@ -82,7 +87,7 @@ Here are some instructions you can use to explore API Logic Server running under
 
 &nbsp;
 
-__1. No signup required__ - use your GitHub account
+__1. Use your GitHub account__ - no additional sign-up required
 
 __2. Load the ApiLogicProject from GitHub__
 
@@ -105,10 +110,10 @@ To access this GitHub project with Codespaces
 
 __3. Add and Configure a Port__
 
-Referring to the figure below:
+Referring to the figure below, click the __Ports__ tab, and:
 
 1. Add the Port (5656)
-2. Make the port __public__
+2. Make the port __public__ (use right-click to alter the Visibility)
 
 __4. Start the Server__
 
@@ -116,7 +121,7 @@ __4. Start the Server__
 
 __5. Start the Browser__
 
-* Click the globe, as shown below.  This should start your Browser, and the links on the left (Customer etc) should return data.
+* Click the globe (on the Ports tab), as shown below.  This should start your Browser, and the links on the left (Customer etc) should return data.
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch-simple.jpg?raw=true"></figure>
 
