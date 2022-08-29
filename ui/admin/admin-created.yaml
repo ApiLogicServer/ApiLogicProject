@@ -1,7 +1,7 @@
 about:
-  date: August 18, 2022 07:24:31
+  date: August 28, 2022 19:53:31
   recent_changes: works with modified safrs-react-admin
-  version: 5.03.34
+  version: 6.00.00
 api_root: '{http_type}://{swagger_host}:{port}/{api}'
 info:
   number_relationships: 13
@@ -234,7 +234,6 @@ resources:
     - name: ShippedDate
     - name: ShipVia
     - name: Freight
-      required: true
       type: DECIMAL
     - name: ShipAddress
     - name: ShipCity
@@ -291,12 +290,10 @@ resources:
     - name: OrderId
       required: true
     - name: UnitPrice
-      required: true
       type: DECIMAL
     - name: Quantity
       required: true
     - name: Discount
-      required: true
     - name: Amount
       type: DECIMAL
     - name: ShippedDate

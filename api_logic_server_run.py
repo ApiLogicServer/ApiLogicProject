@@ -3,7 +3,7 @@
 """
 ==============================================================================
 
-    This file starts the API Logic Server (v 5.03.35, August 18, 2022 07:24:31):
+    This file starts the API Logic Server (v 6.00.00, August 28, 2022 19:53:31):
         $ python3 api_logic_server_run.py [--help  # host, port arguments]
 
     Then, access the Admin App and API via the Browser, eg:  
@@ -74,9 +74,6 @@ for each_arg in sys.argv:
         args += ", "
 app_logger.info(f'\nAPI Logic Project Starting at: {__file__}, with args: {args}')
 
-logging.getLogger('safrs').setLevel(logging.INFO)
-logging.getLogger('safrs.safrs_init').setLevel(logging.INFO)
-
 from typing import TypedDict
 import safrs
 from logic_bank.logic_bank import LogicBank
@@ -112,7 +109,8 @@ def setup_logging(flask_app):
         logic_logger = logging.getLogger('logic_logger')  # for debugging user logic
         handler = logging.StreamHandler(sys.stderr)
         handler.setLevel(logging.DEBUG)
-        if flask_app.config['SQLALCHEMY_DATABASE_URI'].endswith("db.sqlite"):
+        truncate_log = False  # useful for non-IDE run (e.g. console) to see logic indenting
+        if truncate_log and flask_app.config['SQLALCHEMY_DATABASE_URI'].endswith("db.sqlite"):
             formatter = logging.Formatter('%(message).160s')  # lead tag - '%(name)s: %(message)s')
             handler.setFormatter(formatter)
             logic_logger = logging.getLogger("logic_logger")
@@ -139,8 +137,10 @@ def setup_logging(flask_app):
 
     do_safrs_logging = True
     if do_safrs_logging:
-        safrs_logger = logging.getLogger('safrs.safrs_init')
-        safrs_logger.setLevel(logging.CRITICAL)
+        safrs_init_logger = logging.getLogger('safrs.safrs_init')
+        safrs_init_logger.setLevel(logging.DEBUG)
+        safrs_logger = logging.getLogger('safrs')
+        safrs_logger.setLevel(logging.DEBUG)
 
     do_sqlalchemy_info = False  # True will log SQLAlchemy SQLs
     if do_sqlalchemy_info:
@@ -368,7 +368,8 @@ def create_app(swagger_host: str = None, swagger_port: str = None):
         safrs_log_level = safrs.log.getEffectiveLevel()
         db_logger = logging.getLogger('sqlalchemy')
         db_log_level = db_logger.getEffectiveLevel()
-        if True or app_logger.getEffectiveLevel() >= logging.INFO:  # hide chatty logging
+        do_hide_chatty_logging = True
+        if do_hide_chatty_logging and app_logger.getEffectiveLevel() >= logging.INFO:
             safrs.log.setLevel(logging.WARN)  # warn is 20, info 30
             db_logger.setLevel(logging.WARN)
 
@@ -415,7 +416,7 @@ flask_app, safrs_api = create_app(swagger_host = swagger_host, swagger_port = sw
 flask_events(flask_app)
 
 if __name__ == "__main__":
-    msg = f'API Logic Project Loaded (not WSGI), version 5.03.34, configured for {http_type}://{swagger_host}:{port}\n'
+    msg = f'API Logic Project Loaded (not WSGI), version 6.00.00, configured for http://{swagger_host}:{port}\n'
     if is_docker():
         msg += f' (running from docker container at {flask_host} - may require refresh)\n'
     app_logger.info(f'\n{msg}')
@@ -425,15 +426,15 @@ if __name__ == "__main__":
                     f'open it with your IDE at {project_dir}\n')
 
     if os.getenv('CODESPACES'):
-        app_logger.info(f'Server starting on Codespaces ({flask_host}:{port}) -- explore sample data and API at:')
-        app_logger.info(f'..  {http_type}://{swagger_host}/\n')
+        app_logger.info(f'Server starting on Codespaces -- '
+                f'explore sample data and API on codespaces, swagger_host: {http_type}://{swagger_host}/\n')
     else:
         app_logger.info(f'Server starting -- '
                 f'explore sample data and API on swagger_host: {http_type}://{swagger_host}:{port}/\n')
 
     flask_app.run(host=flask_host, threaded=False, port=port)
 else:
-    msg = f'API Logic Project Loaded (WSGI), version 5.03.34, configured for {http_type}://{swagger_host}:{port}\n'
+    msg = f'API Logic Project Loaded (WSGI), version 6.00.00, configured for {http_type}://{swagger_host}:{port}\n'
     if is_docker():
         msg += f' (running from docker container at {flask_host} - may require refresh)\n'
     app_logger.info(f'\n{msg}')
