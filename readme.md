@@ -67,17 +67,22 @@ where:
 
 &nbsp;
 
-### What's Already Happened
+### About this Exploration 
 
-We've already executed the `ApiLogicServer create` command, and uploaded the project to GitHub in the usual manner.  You could clone this and open it locally.  
+The fastest way - _with no install_ - is to follow the Exploration Guide (below) to:
 
-But an even faster way - _with no install_ - is to follow the Exploration Guide, below.
+* Open this empty project in Codespaces
+* Use `ApiLogicServer create` to create the sample application
+* Use the Tutorial to review:
+    * The created UI and API
+    * Customizing the UI and API with the VSCode editor and debugger
+    * Adding Business Logic with the VSCode editor, and debugging it
 
 &nbsp;
 
 # Exploration Guide
 
-The fastest way to explore API Logic Server is to open it in Codespaces and run the Tutorial, as described below.
+The fastest way to explore API Logic Server is to open Codespaces and run the Tutorial, as described below.
 
 &nbsp;
 
@@ -89,12 +94,23 @@ Here are some instructions you can use to explore API Logic Server running under
 
 __1. Use your GitHub account__ - no additional sign-up required
 
-__2. Load the ApiLogicProject from GitHub__
+__2. Load the working_software_now project from GitHub__
 
 To access this GitHub project with Codespaces
 
-1. [__Open this page _in a new window___](https://github.com/ApiLogicServer/ApiLogicServer-Explore), and 
-2. Click __Open > Codespaces__ as shown below:
+1. [__Open this page _in a new window___](https://github.com/ApiLogicServer/working_software_now), and 
+2. Click __Open > Codespaces__ as shown below
+3. You will see an empty project.  To create the sample, paste the following into the terminal window:
+
+```
+ApiLogicServer create --project_name=./ --db_url=
+```
+
+where:
+
+   * `project_name` is specified to be the current directory (normally a new directory)
+
+   * `db_url` is specified as the sample (normally a SQLAlchemy URI to your own database)
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.jpg?raw=true"></figure> 
 
