@@ -98,7 +98,7 @@ __2. Load the working_software_now project from GitHub__
 
 To access this GitHub project with Codespaces
 
-1. [Open this page in a ___new window___](https://github.com/ApiLogicServer/https://github.com/ApiLogicServer/ApiLogicServer-Explore), and 
+1. [Open this page in a ___new window___](https://github.com/ApiLogicServer/https://github.com/ApiLogicServer/https://github.com/ApiLogicServer/ApiLogicProject), and 
 2. Click __Open > Codespaces__ as shown below
 3. You will see an empty project.  To create the sample, paste the following into the terminal window:
 
