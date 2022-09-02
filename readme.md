@@ -56,11 +56,11 @@ API Logic Server is an open source Python project, consisting of:
 It runs as a standard Python (`pip`) install, or under Docker. After installation, you use the CLI create a project like this:
 
 ```
-ApiLogicServer create --project_name=ApiLogicServer-Explore db_url=
+ApiLogicServer create --project_name=ApiLogicProject db_url=
 ```
 where:
 
-* `ApiLogicServer-Explore` is the name of your project (a directory)
+* `ApiLogicServerProject` is the name of your project (a new directory)
 * `db_url` is a SQLAlchemy URL identifying your database; the default is pre-supplied sample<br><br>
 
 > :bulb: API Logic Server reads your schema, and creates  executable, customizable projects.  Let's explore the sample now.
@@ -98,7 +98,7 @@ __2. Load the working_software_now project from GitHub__
 
 To access this GitHub project with Codespaces
 
-1. [__Open this page _in a new window___](https://github.com/ApiLogicServer/working_software_now), and 
+1. [Open this page in a ___new window___](https://github.com/ApiLogicServer/working_software_now), and 
 2. Click __Open > Codespaces__ as shown below
 3. You will see an empty project.  To create the sample, paste the following into the terminal window:
 
