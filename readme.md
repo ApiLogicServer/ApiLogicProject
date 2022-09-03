@@ -51,7 +51,7 @@ API Logic Server is an open source Python project, consisting of:
 
 * a set of runtimes (api, user interface, data access) for project execution, plus 
 
-* a CLI (Command Language Interface) to create executable projects, which can be customized in an IDE such as VSCode or PyCharm
+* a CLI (Command Language Interface) to create executable projects; open them in your IDE (e.g., VSCode, PyCharm) to customize, run and debug 
 
 It runs as a standard Python (`pip`) install, or under Docker. After installation, you use the CLI create a project like this:
 
@@ -67,9 +67,9 @@ where:
 
 &nbsp;
 
-### About this Exploration 
+# Exploration Guide
 
-The fastest way - _with no install_ - is to follow the Exploration Guide (below) to:
+The fastest way - _with __no install___ - is to follow this guide to:
 
 * Open this empty project in Codespaces
 * Use `ApiLogicServer create` to create the sample application
@@ -77,12 +77,6 @@ The fastest way - _with no install_ - is to follow the Exploration Guide (below)
     * The created UI and API
     * Customizing the UI and API with the VSCode editor and debugger
     * Adding Business Logic with the VSCode editor, and debugging it
-
-&nbsp;
-
-# Exploration Guide
-
-The fastest way to explore API Logic Server is to open Codespaces and run the Tutorial, as described below.
 
 &nbsp;
 
