@@ -93,19 +93,23 @@ __2. Load this project from GitHub__
 To access this GitHub project with Codespaces:
 
 1. [Open this page in a ___new window___](https://github.com/ApiLogicServer/ApiLogicProject), and 
+
 2. Click __Open > Codespaces__ as shown below
+
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.jpg?raw=true"></figure> 
-3. You will see an empty project - running in VSCode, _in the Browser_.   But that's just what you _see..._
+
+3. You will see an empty project - running in VSCode, _in the Browser_.   But that's just what you _see..._ <br/>
+
+
+
+   > Behind the scenes, Codespaces has requisitioned a cloud machine, and loaded your project - with a _complete development environment_ - Python, your dependencies, git, etc.  
+
+   > You are attached to this machine in your Browser, running VSCode.
+
+   > :trophy: Pretty remarkable.
 
 &nbsp;
 
-> Behind the scenes, Codespaces has requisitioned a cloud machine, and loaded your project - with a _complete development environment_ - Python, your dependencies, git, etc.  
-
-> You are attached to this machine in your Browser, running VSCode.
-
-> :trophy: Pretty remarkable.
-
-&nbsp;
 To create the sample, paste the following into the terminal window:
 
 &nbsp;
