@@ -21,7 +21,7 @@ This is the sample project, provided so you can explore API Logic Server in Code
 
 &nbsp;
 
-# Motivation: full system automation, leverage existing tools
+# Why: Full System Automation, Leverage Existing Tools
 
 We looked at approaches for building database systems:  
 
