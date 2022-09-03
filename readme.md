@@ -13,7 +13,7 @@ API Logic Server creates __customizable database web app projects:__
 
 * __Projects are Customizable, using _your IDE_:__ such as VSCode, PyCharm, etc, for familiar edit/debug services
 
-* :trophy: __Unique Business Logic Automation:__ using spreadsheet-like rules, extensible with Python
+* __Unique Business Logic Automation :trophy: :__ using spreadsheet-like rules, extensible with Python
 
 Extensive [documentation is available here](https://valhuber.github.io/ApiLogicServer/) - checkout the [FAQs](https://valhuber.github.io/ApiLogicServer/FAQ-Frameworks/).
 
