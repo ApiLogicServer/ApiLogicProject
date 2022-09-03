@@ -127,7 +127,7 @@ Referring to the figure below, click the __Ports__ tab, and:
 1. Add the Port (5656)
 2. Make the port __public__ (use right-click to alter the Visibility)
 
-<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch.png?raw=true"></figure>
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch-simple.jpg?raw=true"></figure>
 
 __4. Start the Server__
 
