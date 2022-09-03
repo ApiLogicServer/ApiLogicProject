@@ -95,7 +95,7 @@ To access this GitHub project with Codespaces:
 1. [Open this page in a ___new window___](https://github.com/ApiLogicServer/ApiLogicProject), and 
 2. Click __Open > Codespaces__ as shown below
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.jpg?raw=true"></figure> 
-3. You will see an empty project, as shown below.  To create the sample, paste the following into the terminal window:
+3. You will see an empty project.  To create the sample, paste the following into the terminal window:
 
 &nbsp;
 
