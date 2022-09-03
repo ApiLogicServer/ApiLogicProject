@@ -21,39 +21,15 @@ This is the sample project, provided so you can explore API Logic Server in Code
 
 &nbsp;
 
-# API Logic Server Background
-
-### Motivation
+# Motivation: full system automation, leverage existing tools
 
 We looked at approaches for building database systems:  
 
-<br/>
+* __Frameworks: _weeks_ for complex systems -__ _multi-endpoint APIs_ and _multi-page apps_ would require weeks in frameworks such as Flask or Django
 
-__Frameworks__
+* __Low Code Tools: no backend automation, proprietary IDEs__ - these are great for building great UIs, but do not automate backend business logic (often nearly half the system), and often do not leverage existing tools such as VSCode or PyCharm.
 
-Frameworks like Flask or Django enable you to build a single endpoint or _Hello World_ page, but a __multi-endpoint__ API and __multi-page__ application would take __weeks__ or more.
-
-<br/>
-
-__Low Code Tools__
-
-These are great for building great UIs, but
-
-* Want a multi-page app -- __without requiring detail layout for each screen__
-* Want to __preserve standard dev tools__ - VSCode, PyCharm, git, etc
-* Need an answer for __backend logic__ (it's nearly half the effort)
-
-&nbsp;
-
-### Our Approach: Instant, Standards-based Customization, Logic Automation
-
-API Logic Server is an open source Python project, consisting of:
-
-* a set of runtimes (api, user interface, data access) for project execution, plus 
-
-* a CLI (Command Language Interface) to create executable projects; open them in your IDE (e.g., VSCode, PyCharm) to customize, run and debug 
-
-It runs as a standard Python (`pip`) install, or under Docker. After installation, you use the CLI create a project like this:
+API Logic Server is an __open source__ Python project, consisting of  a __CLI__ for project creation, and a set of __execution runtimes.__  Install with a standard Python (`pip`) install or Docker, and use the CLI create projects like this:
 
 ```
 ApiLogicServer create --project_name=ApiLogicProject db_url=
@@ -63,7 +39,7 @@ where:
 * `ApiLogicServerProject` is the name of your project (a new directory)
 * `db_url` is a SQLAlchemy URL identifying your database; the default is pre-supplied sample<br><br>
 
-> :bulb: API Logic Server reads your schema, and creates  executable, customizable projects.  Let's explore the sample now.
+> :bulb: API Logic Server reads your schema, and creates  __executable__ projects that are __customizable__ in _your IDE_ - including business logic.  Let's explore the sample now.
 
 &nbsp;
 
