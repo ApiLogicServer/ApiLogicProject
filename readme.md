@@ -88,9 +88,9 @@ Explore API Logic Server running under CodeSpaces as follows.
 
 __1. Use your GitHub account__ - no additional sign-up required
 
-__2. Load the working_software_now project from GitHub__
+__2. Load this project from GitHub__
 
-To access this GitHub project with Codespaces
+To access this GitHub project with Codespaces:
 
 1. [Open this page in a ___new window___](https://github.com/ApiLogicServer/ApiLogicProject), and 
 2. Click __Open > Codespaces__ as shown below
