@@ -95,7 +95,18 @@ To access this GitHub project with Codespaces:
 1. [Open this page in a ___new window___](https://github.com/ApiLogicServer/ApiLogicProject), and 
 2. Click __Open > Codespaces__ as shown below
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.jpg?raw=true"></figure> 
-3. You will see an empty project.  To create the sample, paste the following into the terminal window:
+3. You will see an empty project - running in VSCode, _in the Browser_.   But that's just what you _see..._
+
+&nbsp;
+
+> Behind the scenes, Codespaces has requisitioned a cloud machine, and loaded your project - with a _complete development environment_ - Python, your dependencies, git, etc.  
+
+> You are attached to this machine in your Browser, running VSCode.
+
+> :trophy: Pretty remarkable.
+
+&nbsp;
+To create the sample, paste the following into the terminal window:
 
 &nbsp;
 
@@ -110,15 +121,6 @@ where:
    * `db_url` is specified as the sample (normally a SQLAlchemy URI to your own database)
 
 
-> You will now see the sample project - running in VSCode, _in the Browser._  But that's just what you _see..._
-
-> Behind the scenes, Codespaces has requisitioned a cloud machine, and loaded your project - with a _complete development environment_ - Python, your dependencies, git, etc.  
-
-> You are attached to this machine in your Browser, running VSCode.
-
-> :trophy: Pretty remarkable.
-
-&nbsp;
 
 __3. Add and Configure a Port__
 
