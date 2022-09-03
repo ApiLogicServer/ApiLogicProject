@@ -127,6 +127,8 @@ Referring to the figure below, click the __Ports__ tab, and:
 1. Add the Port (5656)
 2. Make the port __public__ (use right-click to alter the Visibility)
 
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch.png?raw=true"></figure>
+
 __4. Start the Server__
 
 * Use the pre-defined Launch Configuration
@@ -142,8 +144,6 @@ __5. Start the Browser__
 <summary>If errors, use this procedure</summary>
 
 The above procedure is simplified, based on some assumptions about Codespaces.  If the Browser fails to launch, try the following for explicit specification of the forwarded port:
-
-<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch.png?raw=true"></figure>
 
 __4. Configure the pre-created `Codespaces-ApiLogicServer` launch configuration__ (see above)
 
