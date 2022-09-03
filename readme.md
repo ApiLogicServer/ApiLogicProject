@@ -82,7 +82,7 @@ The fastest way - _with __no install___ - is to follow this guide to:
 
 ### 1. Open in Codespaces
 
-Here are some instructions you can use to explore API Logic Server running under CodeSpaces.
+Explore API Logic Server running under CodeSpaces as follows.
 
 &nbsp;
 
