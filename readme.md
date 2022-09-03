@@ -39,7 +39,7 @@ where:
 * `ApiLogicServerProject` is the name of your project (a new directory)
 * `db_url` is a SQLAlchemy URL identifying your database; the default is pre-supplied sample<br><br>
 
-> :bulb: API Logic Server reads your schema, and creates  __executable__ projects that are __customizable__ in _your_ IDE - including business logic.  Let's explore the sample now.
+> :bulb: API Logic Server reads your schema, and creates an  __executable__ project that is __customizable__ in _your_ IDE - including business logic.  Let's explore the sample now.
 
 &nbsp;
 
