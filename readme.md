@@ -1,6 +1,6 @@
 # Why: Partial Automation, Proprietary IDEs
 
-We looked at approaches for building database systems:  
+We looked at approaches for building database systems, and saw shortfalls:
 
 * __Frameworks: _weeks_ for complex systems -__ _multi-endpoint APIs_ and _multi-page apps_ would require weeks in frameworks such as Flask or Django
 
@@ -9,7 +9,7 @@ We looked at approaches for building database systems:
 &nbsp;
 
 # Instant, Full System Automation, Leverage Existing Tools
-API Logic Server is an __open source__ Python project: a __CLI__ for project creation, and a set of __execution runtimes.__  Install with a standard Python (`pip`) install or Docker.<br/><br/>
+So, we created API Logic Server as an __open source__ Python project: a __CLI__ for project creation, and a set of __execution runtimes.__  Install with a standard Python (`pip`) install or Docker.<br/><br/>
 
 ### Project Creation is Instant - Single Command
  
