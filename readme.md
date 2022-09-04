@@ -4,7 +4,7 @@ We saw shortfalls in current approaches for building database systems:
 
 * __Frameworks: too slow -__ _multi-endpoint APIs_ and _multi-page apps_ would require _weeks_ in frameworks such as Flask or Django
 
-* __Low Code Tools: no backend automation, proprietary IDEs__ - great for building UIs, but no backend business logic (often nearly half the system), and often do not leverage existing tools such as VSCode or PyCharm.
+* __Low Code Tools: no backend automation, proprietary IDEs__ - great for building UIs, but no backend business logic (often nearly half the system), and often do not leverage existing tools (VSCode, PyCharm, etc).
 
 &nbsp;
 
@@ -26,7 +26,7 @@ API Logic Server reads your schema, and creates an  __executable__ project:
 
 ## Projects are Customizable: Using _Your_ IDE
 
-Customize projects in __your IDE__ - VSCode, PyCharm, etc. - for edit, debug and code management.<br/><br/>
+Customize projects in __your IDE__ (VSCode, PyCharm, etc.) for edit, debug and code management.<br/> <br/>
 
 
 ## Business Logic is Automated: Unique Rules :trophy: 
