@@ -31,7 +31,7 @@ Customize projects in __your IDE__ - VSCode, PyCharm, etc. - for edit, debug and
 
 ## Business Logic is Automated: Unique Rules :trophy: 
 
-Declare business logic with spreadsheet-like rules, extensible with Python.
+Declare business logic with spreadsheet-like rules (40x more concise than code), extensible with Python.
 
 &nbsp;
 
