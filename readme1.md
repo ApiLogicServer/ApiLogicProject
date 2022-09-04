@@ -11,15 +11,12 @@ We looked at approaches for building database systems:
 # Instant, Full System Automation, Leverage Existing Tools
 API Logic Server is an __open source__ Python project, consisting of  a __CLI__ for project creation, and a set of __execution runtimes.__  Install with a standard Python (`pip`) install or Docker.
 
-
 &nbsp;
 
 ## Project Creation is Instant - Single Command
  
-
-```
-ApiLogicServer create --project_name=ApiLogicProject db_url=
-```
+&nbsp;&nbsp;&nbsp;&nbsp;
+`ApiLogicServer create --project_name=ApiLogicProject db_url=`
 
 &nbsp;
 
@@ -34,7 +31,7 @@ API Logic Server reads your schema, and creates an  __executable__ project:
 
 ## Projects are Customizable, using _your_ IDE
 
-Customize projects in __your IDE__ - such as VSCode, PyCharm, etc.  Use their powerful services for edit/debug and code management.
+Customize projects in __your IDE__ - such as VSCode, PyCharm, etc.  Use their powerful services for edit, debug and code management.
 
 &nbsp;
 
@@ -48,7 +45,7 @@ Use spreadsheet-like rules, extensible with Python :trophy:
 
 Extensive [documentation is available here](https://valhuber.github.io/ApiLogicServer/) - checkout the [FAQs](https://valhuber.github.io/ApiLogicServer/FAQ-Frameworks/).
 
-The fastest way - _with __no install___ - is to follow this guide to:
+The fastest way - _with __no install___ - is to follow the instructions below to:
 
 * Open this empty project in Codespaces
 * Use `ApiLogicServer create` to create the sample application
