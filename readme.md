@@ -11,7 +11,7 @@ We looked at approaches for building database systems, and saw shortfalls:
 # Instant, Full System Automation, Leverage Existing Tools
 So, we created API Logic Server as an __open source__ Python project: a __CLI__ for project creation, and a set of __execution runtimes.__  Install with a standard Python (`pip`) install or Docker.<br/><br/>
 
-## Project Creation is Instant - Single Command
+## Project Creation is Instant: Single Command
  
 &nbsp;&nbsp;&nbsp;&nbsp;
 `ApiLogicServer create --project_name=ApiLogicProject db_url=`<br/><br/>
@@ -24,12 +24,12 @@ API Logic Server reads your schema, and creates an  __executable__ project:
 
 * __Admin UI__ - multi-page / multi-table apps, with page navigations and automatic joins<br/><br/>
 
-## Projects are Customizable, using _your_ IDE
+## Projects are Customizable: using _your_ IDE
 
 Customize projects in __your IDE__ - VSCode, PyCharm, etc. - for edit, debug and code management.<br/><br/>
 
 
-## Business Logic is Automated - Unique Rules
+## Business Logic is Automated: Unique Rules
 
 Use spreadsheet-like rules, extensible with Python. :trophy: 
 
