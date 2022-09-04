@@ -29,9 +29,9 @@ API Logic Server reads your schema, and creates an  __executable__ project:
 Customize projects in __your IDE__ - VSCode, PyCharm, etc. - for edit, debug and code management.<br/><br/>
 
 
-## Business Logic is Automated: Unique Rules
+## Business Logic is Automated: Unique Rules :trophy: 
 
-Use spreadsheet-like rules, extensible with Python. :trophy: 
+Declare business logic with spreadsheet-like rules, extensible with Python.
 
 &nbsp;
 
