@@ -4,7 +4,7 @@ We saw shortfalls in current approaches for building database systems:
 
 * __Frameworks: too slow -__ _multi-endpoint APIs_ and _multi-page apps_ would require _weeks_ in frameworks such as Flask or Django
 
-* __Low Code Tools: no backend automation, proprietary IDEs__ - great for building UIs, but no backend business logic (often nearly half the system), and often do not leverage existing tools (VSCode, PyCharm, etc).
+* __Low Code Tools: no backend automation, proprietary IDEs__ - great for building UIs, but no backend business logic (often nearly half the system), and often do not leverage existing IDEs (VSCode, PyCharm, etc).
 
 &nbsp;
 
