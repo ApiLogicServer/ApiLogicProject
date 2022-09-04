@@ -1,4 +1,27 @@
-# Why: Partial Automation, Proprietary IDEs
+# Welcome to API Logic Server
+
+API Logic Server creates __customizable database web app projects:__
+
+* __Creation is Instant:__ create projects with a single command
+
+* __Projects are Highly Functional:__
+
+    * __API__ - an endpoint for each table, with filtering, sorting, pagination and related data access
+
+    * __Admin UI__ - multi-page / multi-table apps, with page navigations and automatic joins
+
+
+* __Projects are Customizable, using _your IDE_:__ such as VSCode, PyCharm, etc, for familiar edit/debug services
+
+* __Unique Business Logic Automation:__ using spreadsheet-like rules, extensible with Python :trophy: 
+
+Extensive [documentation is available here](https://valhuber.github.io/ApiLogicServer/) - checkout the [FAQs](https://valhuber.github.io/ApiLogicServer/FAQ-Frameworks/).
+
+This is the sample project, provided so you can explore API Logic Server in Codespaces -- __zero install.__
+
+&nbsp;
+
+# Why: Full System Automation, Leverage Existing Tools
 
 We looked at approaches for building database systems:  
 
@@ -6,40 +29,23 @@ We looked at approaches for building database systems:
 
 * __Low Code Tools: no backend automation, proprietary IDEs__ - these are great for building great UIs, but do not automate backend business logic (often nearly half the system), and often do not leverage existing tools such as VSCode or PyCharm.
 
-&nbsp;
+API Logic Server is an __open source__ Python project, consisting of  a __CLI__ for project creation, and a set of __execution runtimes.__  Install with a standard Python (`pip`) install or Docker, and use the CLI create projects like this:
 
-# Instant, Full System Automation, Leverage Existing Tools
-API Logic Server is an __open source__ Python project: a __CLI__ for project creation, and a set of __execution runtimes.__  Install with a standard Python (`pip`) install or Docker.<br/><br/>
+```
+ApiLogicServer create --project_name=ApiLogicProject db_url=
+```
+where:
 
-### Project Creation is Instant - Single Command
- 
-&nbsp;&nbsp;&nbsp;&nbsp;
-`ApiLogicServer create --project_name=ApiLogicProject db_url=`<br/><br/>
+* `ApiLogicServerProject` is the name of your project (a new directory)
+* `db_url` is a SQLAlchemy URL identifying your database; the default is pre-supplied sample<br><br>
 
-
-## Projects are Highly Functional: Admin UI and API
-API Logic Server reads your schema, and creates an  __executable__ project:
-
-* __API__ - an endpoint for each table, with filtering, sorting, pagination and related data access
-
-* __Admin UI__ - multi-page / multi-table apps, with page navigations and automatic joins<br/><br/>
-
-## Projects are Customizable, using _your_ IDE
-
-Customize projects in __your IDE__ - VSCode, PyCharm, etc. - for edit, debug and code management.<br/><br/>
-
-
-## Unique Business Logic Automation
-
-Use spreadsheet-like rules, extensible with Python :trophy: 
+> :bulb: API Logic Server reads your schema, and creates an  __executable__ project that is __customizable__ in _your_ IDE - including business logic.  Let's explore the sample now.
 
 &nbsp;
 
 # Exploration Guide
 
-Extensive [documentation is available here](https://valhuber.github.io/ApiLogicServer/) - checkout the [FAQs](https://valhuber.github.io/ApiLogicServer/FAQ-Frameworks/).
-
-The fastest way - _with __no install___ - is to follow the instructions below to:
+The fastest way - _with __no install___ - is to follow this guide to:
 
 * Open this empty project in Codespaces
 * Use `ApiLogicServer create` to create the sample application
