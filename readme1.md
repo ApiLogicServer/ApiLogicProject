@@ -26,7 +26,7 @@ API Logic Server reads your schema, and creates an  __executable__ project:
 
 ## Projects are Customizable, using _your_ IDE
 
-Customize projects in __your IDE__ - such as VSCode, PyCharm, etc.  Use their powerful services for edit, debug and code management.<br/><br/>
+Customize projects in __your IDE__ - VSCode, PyCharm, etc. - for edit, debug and code management.<br/><br/>
 
 
 ## Unique Business Logic Automation
