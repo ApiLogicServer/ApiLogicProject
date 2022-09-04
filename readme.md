@@ -39,9 +39,9 @@ Use spreadsheet-like rules, extensible with Python. :trophy:
 
 Extensive [documentation is available here](https://valhuber.github.io/ApiLogicServer/) - checkout the [FAQs](https://valhuber.github.io/ApiLogicServer/FAQ-Frameworks/).
 
-The fastest way - _with __no install___ - is to follow the instructions below to:
+The fastest way to explore API Logic Server - _with __no install___ - is to follow the instructions below to:
 
-* Open this empty project in Codespaces
+* Open this empty project in Codespaces / VSCode (runs in your Browser)
 * Use `ApiLogicServer create` to create the sample application
 * Use the Tutorial to review initial automation, customization, and debugging
 
@@ -77,9 +77,7 @@ To access this GitHub project with Codespaces:
 
 &nbsp;
 
-To create the sample, paste the following into the terminal window:
-
-&nbsp;
+To create the sample, paste the following into the terminal window:<br/><br/>
 
 ```
 ApiLogicServer create --project_name=./ --db_url=
@@ -89,9 +87,7 @@ where:
 
    * `project_name` is specified to be the current directory (normally a new directory)
 
-   * `db_url` is specified as the sample (normally a SQLAlchemy URI to your own database)
-
-
+   * `db_url` is specified as the sample (normally a SQLAlchemy URI to your own database)<br/><br/>
 
 __3. Add and Configure a Port__
 
@@ -104,7 +100,7 @@ Referring to the figure below, click the __Ports__ tab, and:
 
 __4. Start the Server__
 
-* Use the pre-defined Launch Configuration
+* Use the pre-defined Launch Configuration<br/><br/>
 
 __5. Start the Browser__
 
