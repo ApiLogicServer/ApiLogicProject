@@ -1,10 +1,10 @@
 # Why: Partial Automation, Proprietary IDEs
 
-We looked at approaches for building database systems, and saw shortfalls:
+We saw shortfalls in current approaches for building database systems:
 
 * __Frameworks: too slow -__ _multi-endpoint APIs_ and _multi-page apps_ would require _weeks_ in frameworks such as Flask or Django
 
-* __Low Code Tools: no backend automation, proprietary IDEs__ - these are great for building great UIs, but do not automate backend business logic (often nearly half the system), and often do not leverage existing tools such as VSCode or PyCharm.
+* __Low Code Tools: no backend automation, proprietary IDEs__ - great for building UIs, but no backend business logic (often nearly half the system), and often do not leverage existing tools such as VSCode or PyCharm.
 
 &nbsp;
 
