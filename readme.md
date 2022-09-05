@@ -2,9 +2,9 @@
 
 We saw __shortfalls in current approaches__ for building database systems:
 
-* __Frameworks: too slow -__ _multi-endpoint APIs_ and _multi-page apps_ would require _weeks_ in frameworks such as Flask or Django
+* __Frameworks: too slow -__ _multi-endpoint APIs_ and _multi-page apps_ would require _weeks_ in frameworks such as Flask or Django, since it's all code -- no automation
 
-* __Low Code Tools: no backend automation, proprietary IDEs__ - great for building UIs, but no backend business logic (nearly half the effort), and often do not leverage existing IDEs (VSCode, PyCharm, etc).
+* __Low Code Tools: no backend automation, proprietary IDEs__ - good automation for building UIs, but none for backend business logic (nearly half the effort), and often do not leverage existing IDEs (VSCode, PyCharm, etc).
 
 &nbsp;
 
@@ -96,11 +96,12 @@ Referring to the figure below (steps 3-5), click the __Ports__ tab, and:
 1. Add the Port (5656)
 2. Make the port __public__ (use right-click to alter the Visibility)
 
-<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch-simple.jpg?raw=true"></figure>
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch-simple.jpg?raw=true"></figure><br/>
 
 __4. Start the Server__
 
-* Use the pre-defined Launch Configuration<br/><br/>
+* Click __Run/Debug__ on the left toolbar
+* Use the pre-defined Launch Configuration - click the green __run__ button<br/><br/>
 
 __5. Start the Browser__
 
