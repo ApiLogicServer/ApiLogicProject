@@ -1,6 +1,6 @@
 # Why: Partial Automation, Proprietary IDEs
 
-We saw shortfalls in current approaches for building database systems:
+We saw __shortfalls in current approaches__ for building database systems:
 
 * __Frameworks: too slow -__ _multi-endpoint APIs_ and _multi-page apps_ would require _weeks_ in frameworks such as Flask or Django
 
@@ -91,7 +91,7 @@ where:
 
 __3. Add and Configure a Port__
 
-Referring to the figure below, click the __Ports__ tab, and:
+Referring to the figure below (steps 3-5), click the __Ports__ tab, and:
 
 1. Add the Port (5656)
 2. Make the port __public__ (use right-click to alter the Visibility)
@@ -105,9 +105,6 @@ __4. Start the Server__
 __5. Start the Browser__
 
 * Click the globe (on the Ports tab), as shown below.  This should start your Browser, and the links on the left (Customer etc) should return data.
-
-<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch-simple.jpg?raw=true"></figure>
-
 
 <details markdown>
 <summary>If errors, use this procedure</summary>
