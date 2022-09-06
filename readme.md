@@ -14,7 +14,7 @@ So, we created API Logic Server as an __open source__ Python project: a __CLI__ 
 ## Project Creation is Instant: Single Command
  
 &nbsp;&nbsp;&nbsp;&nbsp;
-`ApiLogicServer create --project_name=ApiLogicProject db_url=`<br/><br/>
+`ApiLogicServer create --project_name=ApiLogicProject --db_url=`<br/><br/>
 
 
 ## Projects are Highly Functional: Admin UI and API
