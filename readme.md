@@ -77,6 +77,8 @@ To access this GitHub project with Codespaces:
 
 &nbsp;
 
+__3. Create the Sample__
+
 To create the sample, paste the following into the terminal window:<br/><br/>
 
 ```
@@ -89,7 +91,7 @@ where:
 
    * `db_url` is specified as the sample (normally a SQLAlchemy URI to your own database)<br/><br/>
 
-__3. Add and Configure a Port__
+__4. Add and Configure a Port__
 
 Referring to the figure below (steps 3-5), click the __Ports__ tab, and:
 
@@ -98,12 +100,12 @@ Referring to the figure below (steps 3-5), click the __Ports__ tab, and:
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch-simple.jpg?raw=true"></figure><br/>
 
-__4. Start the Server__
+__5. Start the Server__
 
 * Click __Run/Debug__ on the left toolbar
 * Use the pre-defined Launch Configuration - click the green __run__ button<br/><br/>
 
-__5. Start the Browser__
+__6. Start the Browser__
 
 * Click the globe (on the Ports tab), as shown below.  This should start your Browser, and the links on the left (Customer etc) should return data.
 
@@ -139,7 +141,7 @@ Now, [open the Tutorial](Tutorial.md).
 
 # Appendices
 
-Here is some background about API Logic Server.
+Here is some background about API Logic Server.  You might wish to review this later - it is _not required_ to run the Tutorial.
 
 
 &nbsp;&nbsp;
