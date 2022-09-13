@@ -55,7 +55,7 @@ Explore API Logic Server running under CodeSpaces as follows.
 
 __1. Use your GitHub account__ - no additional sign-up required
 
-__2. Load this project from GitHub__
+__2. Load this project from GitHub, and create the Sample__
 
 To access this GitHub project with Codespaces:
 
@@ -79,7 +79,7 @@ To access this GitHub project with Codespaces:
 
 4. Create the Sample
 
-To create the sample, paste the following into the terminal window:<br/><br/>
+To create the sample, paste the following into the terminal window:<br/>
 
 ```
 ApiLogicServer create --project_name=./ --db_url=
