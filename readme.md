@@ -1,132 +1,132 @@
-# Why: Partial Automation, Proprietary IDEs
+# Quick Start
 
-We saw __shortfalls in current approaches__ for building database systems:
+API Logic Server reads your schema to create executable web app projects: an API and an Admin UI. 
 
-* __Frameworks: too slow -__ _multi-endpoint APIs_ and _multi-page apps_ would require _weeks_ in frameworks such as Flask or Django, since it's all code -- no automation
+Customize with Python in standard IDEs.
 
-* __Low Code Tools: no backend automation, proprietary IDEs__ - good UI automation, but none for backend business logic (nearly half the effort), and often do not leverage existing IDEs (VSCode, PyCharm, etc).
+Unique spreadsheet-like business rules for multi-table derivations and constraints - 40X more concise than code.
 
-&nbsp;
-
-# Instant, Full System Automation, Leverage Existing Tools
-So, we created API Logic Server as an __open source__ Python project: a __CLI__ for project creation, and a set of __execution runtimes.__  Install with a standard Python (`pip`) install or Docker.<br/><br/>
-
-## Project Creation is Instant: Single Command
- 
-&nbsp;&nbsp;&nbsp;&nbsp;
-`ApiLogicServer create --project_name=ApiLogicProject --db_url=`<br/><br/>
-
-
-## Projects are Highly Functional: Admin UI and API
-API Logic Server reads your schema, and creates an  __executable__ project:
-
-* __API__ - an endpoint for each table, with filtering, sorting, pagination and related data access
-
-* __Admin UI__ - multi-page / multi-table apps, with page navigations and automatic joins<br/><br/>
-
-## Projects are Customizable: Using _Your_ IDE
-
-Customize projects in __your IDE__ (VSCode, PyCharm, etc.) for edit, debug and code management.<br/> <br/>
-
-
-## Business Logic is Automated: Unique Rules :trophy: 
-
-Declare business logic with spreadsheet-like rules (40x more concise than code), extensible with Python.
+Follow the steps below to be up and running in about a minute - no install, no configuration.  You can run the created project to explore its functionality, and how to customize it in VSCode.
 
 &nbsp;
 
-# Exploration Guide
+## 1. Open in Codespaces
 
-Extensive [documentation is available here](https://valhuber.github.io/ApiLogicServer/) - checkout the [FAQs](https://valhuber.github.io/ApiLogicServer/FAQ-Frameworks/).
+Open this template project in Codespaces.
 
-The fastest way to explore API Logic Server - _with __no install___ - is to follow the instructions below to:
+<details markdown>
 
-* Open this empty project in Codespaces / VSCode (runs in your Browser)
-* Use `ApiLogicServer create` to create the sample application
-* Use the Tutorial to review initial automation, customization, and debugging
+<summary>Show Me How</summary>
 
 &nbsp;
 
-### 1. Open in Codespaces
-
-Explore API Logic Server running under CodeSpaces as follows.
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.jpg?raw=true"></figure> 
 
 &nbsp;
 
 __1. Use your GitHub account__ - no additional sign-up required
 
-__2. Load this project from GitHub, and create the Sample__
+__2. Load the working_software_now project from GitHub__
 
-To access this GitHub project with Codespaces:
+To access this GitHub project with Codespaces
 
-1. [Open this page in a ___new window___](https://github.com/ApiLogicServer/ApiLogicProject), and 
+1. __Open [this page](https://github.com/ApiLogicServer/working_software_now)  _in a new window___, and 
+2. Click __Open > Codespaces__ as shown below
+3. You will see an empty project.
 
-2. Click __Code > Codespaces__ as shown below
+These instructions will continue in Codespaces.
 
-<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.jpg?raw=true"></figure> 
-
-3. You will see an empty project - running in VSCode, _in the Browser_.   But that's just what you _see..._ <br/>
-
-
-
-   > Behind the scenes, Codespaces has requisitioned a cloud machine, and loaded your project - with a _complete development environment_ - Python, your dependencies, git, etc.  
-
-   > You are attached to this machine in your Browser, running VSCode.
-
-   > :trophy: Pretty remarkable.
+<details markdown>
 
 &nbsp;
 
-4. Create the Sample
+<summary>What Just Happened</summary>
 
-To create the sample, paste the following into the terminal window:<br/>
+
+You will now see the template project - open in VSCode, _in the Browser._  But that's just what you _see..._
+
+Behind the scenes, Codespaces has requisitioned a cloud machine, and loaded the template - with a _complete development environment_ - Python, your dependencies, git, etc.  
+
+You are attached to this machine in your Browser, running VSCode.
+
+> :trophy: Pretty remarkable.
+
+</details>
+
+</details>
+
+
+&nbsp;
+
+## 2. Create a project
+
+Paste this into the Terminal window:
 
 ```
 ApiLogicServer create --project_name=./ --db_url=
 ```
 
-where:
+<details markdown>
 
-   * `project_name` is specified to be the current directory (normally a new directory)
+<summary>What Just Happened</summary>
 
-   * `db_url` is specified as the sample (normally a SQLAlchemy URI to your own database)<br/><br/>
+&nbsp;
 
-__3. Add and Configure a Port__
+This is **not** a coded application.
 
-Referring to the figure below (steps 3-5), click the __Ports__ tab, and:
+The system examined your database (here, the default), and __created an _executable project:___
 
-1. Add the Port (5656)
-2. Make the port __public__ (use right-click to alter the Visibility)
+* __API__ - an endpoint for each table, with full CRUD services, filtering, sorting, pagination and related data access
 
-<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch-simple.jpg?raw=true"></figure><br/>
+* __Admin UI__ - multi-page / multi-table apps, with page navigations and automatic joins
 
-__4. Start the Server__
+__Projects are Customizable, using _your IDE_:__ the Project Explorer shows the project structure, at left.  Use the code editor to customize your project, and the debugger to debug it.
 
-* Click __Run/Debug__ on the left toolbar
-* Use the pre-defined Launch Configuration - click the green __run__ button<br/><br/>
+__Business Logic is Automated:__ use unique spreadsheet-like rules to declare multi-table derivations and constraints - 40X more concise than code.  Extend logic with Python.
 
-__5. Start the Browser__
-
-* Click the globe (on the Ports tab), as shown below.  This should start your Browser, and the links on the left (Customer etc) should return data.
 
 <details markdown>
-<summary>If errors, use this procedure</summary>
 
-The above procedure is simplified, based on some assumptions about Codespaces.  If the Browser fails to launch, try the following for explicit specification of the forwarded port:
+<summary>Using your own database</summary>
 
-__4. Configure the pre-created `Codespaces-ApiLogicServer` launch configuration__ (see above)
+&nbsp;
 
-__5. Start the Server__ using the provided Launch Configuration = `Codespaces-ApiLogicServer`
+In this case, we used a default Customers/Orders database.  To use your own database, provide the `db_url`.
 
-__6. Open the Browser__
+</details>
+</details>
 
-Click the globe, as shown above.  This should start your Browser, and the links on the left (Customer etc) should return data.
+&nbsp;
+
+## 3. Start the Server, and Launch the Admin App
+
+The project is ready to run:
+
+1. Use the default Run Configuration to start the server, and 
+
+2. Start the web app (Ports > Globe). 
+
+<details markdown>
+
+&nbsp;
+
+<summary>Show Me How</summary>
+
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch-simple.jpg?raw=true"></figure>
 
 </details>
 
 &nbsp;
 
-### 2. Run the Tutorial
+## 4. Explore the Tutorial
+
+[Open the Tutorial](Tutorial.md) to explore the sample project.
+
+<details markdown>
+
+&nbsp;
+
+<summary>Tutorial Overview</summary>
 
 The Tutorial will enable you to explore 2 key aspects:
 
@@ -134,14 +134,70 @@ The Tutorial will enable you to explore 2 key aspects:
 
 * __Customization and Debugging__ - this sample also includes customizations for extending the API and declaring logic, and how to use VSCode to debug these.  The Tutorial will clearly identify such pre-built customizations.
 
-Now, [open the Tutorial](Tutorial.md).
+</details>
+
+&nbsp;
+
+Extensive [product documentation is available here](https://valhuber.github.io/ApiLogicServer/) - checkout the [FAQs](https://valhuber.github.io/ApiLogicServer/FAQ-Frameworks/).
+
+&nbsp;
+
+# API Logic Server Background
+
+### Motivation
+
+We looked at approaches for building database systems:  
+
+<br/>
+
+__Frameworks__
+
+Frameworks like Flask or Django enable you to build a single endpoint or _Hello World_ page, but a __multi-endpoint__ API and __multi-page__ application would take __weeks__ or more.
+
+<br/>
+
+__Low Code Tools__
+
+These are great for building great UIs, but
+
+* Want a multi-page app -- __without requiring detail layout for each screen__
+* Want to __preserve standard dev tools__ - VSCode, PyCharm, git, etc
+* Need an answer for __backend logic__ (it's nearly half the effort)
+
+&nbsp;
+
+### Our Approach: Instant, Standards-based Customization, Logic Automation
+
+API Logic Server is an open source Python project.  It runs as a standard Python (`pip`) install, or under Docker. It consists of:
+
+* a set of runtimes (api, user interface, data access) for project execution, plus 
+
+* a CLI (Command Language Interface) to create executable projects with a single command
+
+   * Customize your projects in an IDE such as VSCode or PyCharm
+
+
+> :bulb: API Logic Server reads your schema, and creates an executable, customizable project.
+
+&nbsp;
+
+### Bottom Line: Faster, Simpler, Architectural Quality
+
+Automation makes it __faster:__ what used to require weeks or months is now immediate.  Unblock UI Dev, and engage business users - _early_ - instead of investing in a misunderstanding.
+
+Automation makes it __simpler:__ this reduces the risk of architectural errors, e.g., APIs without pagination.
+
+And finally, automation guarantees a base level of __architecture:__ systems will always have APIs (no more logic in UI controllers), logic will be always shared between UIs and APIs, and predictable for maintenance teams.
+
+
+
 
 &nbsp;
 ---
 
 # Appendices
 
-Here is some background about API Logic Server.  You might wish to review this later - it is _not required_ to run the Tutorial.
+Here is some background about API Logic Server.
 
 
 &nbsp;&nbsp;

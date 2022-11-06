@@ -4,5 +4,6 @@
             "viewType": "vscode.markdown.preview.editor",
             "filenamePattern": "*.md"
         }
-    ]
+    ],
+    "workbench.startupEditor": "readme"
 }
