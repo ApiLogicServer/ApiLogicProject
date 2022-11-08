@@ -196,6 +196,52 @@ API Logic Server is an open source Python project.  It runs as a standard Python
 
 * a CLI (Command Language Interface) to create executable projects with a single command
 
+Then,
+
+* Customize your projects in standard IDEs such as VSCode or PyCharm
+
+* Declare multi-table derivation and constraint logic using spreadsheet-like rules
+
+    * :trophy: 40X more concise than code
+    * Extend with Python
+
+
+> :bulb: API Logic Server reads your schema, and creates an executable, customizable project.
+
+&nbsp;
+
+# API Logic Server Background
+
+### Motivation
+
+We looked at approaches for building database systems:  
+
+<br/>
+
+__Frameworks__
+
+Frameworks like Flask or Django enable you to build a single endpoint or _Hello World_ page, but a __multi-endpoint__ API and __multi-page__ application would take __weeks__ or more.
+
+<br/>
+
+__Low Code Tools__
+
+These are great for building great UIs, but
+
+* Want a multi-page app -- __without requiring detail layout for each screen__
+* Want to __preserve standard dev tools__ - VSCode, PyCharm, git, etc
+* Need an answer for __backend logic__ (it's nearly half the effort)
+
+&nbsp;
+
+### Our Approach: Instant, Standards-based Customization, Logic Automation
+
+API Logic Server is an open source Python project.  It runs as a standard Python (`pip`) install, or under Docker. It consists of:
+
+* a set of runtimes (api, user interface, data access) for project execution, plus 
+
+* a CLI (Command Language Interface) to create executable projects with a single command
+
    * Customize your projects in an IDE such as VSCode or PyCharm
 
 
