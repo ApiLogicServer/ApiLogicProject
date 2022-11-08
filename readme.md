@@ -6,9 +6,9 @@
 
 &nbsp;
 
-API Logic Server reads your schema to __create an executable web app project:__ an API and an Admin UI. 
+API Logic Server reads your schema to __create an executable web app project, _instantly:___ an API and an Admin UI. 
 
-__Customize in standard IDEs__ with Python.
+__Customize using standard IDEs__ with Python.
 
 __Unique spreadsheet-like business rules__ for multi-table derivations and constraints - 40X more concise than code.
 
@@ -16,7 +16,7 @@ Follow the steps below to be up and running in about a minute - no install, no c
 
 <details markdown>
 
-<summary>Why Does It Matter: Faster, Simpler, Architectural Quality</summary>
+<summary>Why Does It Matter: Faster, Simpler, Modern Architecture</summary>
 
 &nbsp;
 
@@ -24,7 +24,7 @@ Automation makes it __faster:__ what used to require weeks or months is now imme
 
 Automation makes it __simpler:__ this reduces the risk of architectural errors, e.g., APIs without pagination.
 
-And finally, automation guarantees a base level of __architecture:__ systems will always have APIs (no more logic in UI controllers), logic will be always shared between UIs and APIs, and predictable for maintenance teams.
+And finally, automation guarantees a __modern software architecture:__ systems will always be container-ready, API-based, logic will be always shared between UIs and APIs (no more logic in UI controllers), and predictable for maintenance teams.
 
 
 </details>
