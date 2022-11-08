@@ -1,5 +1,10 @@
 # Quick Start
 
+<details markdown>
+
+<summary>What is API Logic Server</summary>
+
+&nbsp;
 API Logic Server reads your schema to create executable web app projects: an API and an Admin UI. 
 
 Customize with Python in standard IDEs.
@@ -7,6 +12,23 @@ Customize with Python in standard IDEs.
 Unique spreadsheet-like business rules for multi-table derivations and constraints - 40X more concise than code.
 
 Follow the steps below to be up and running in about a minute - no install, no configuration.  You can run the created project to explore its functionality, and how to customize it in VSCode.
+
+<details markdown>
+
+<summary>Why Does It Matter: Faster, Simpler, Architectural Quality</summary>
+
+&nbsp;
+
+Automation makes it __faster:__ what used to require weeks or months is now immediate.  Unblock UI Dev, and engage business users - _early_ - instead of investing in a misunderstanding.
+
+Automation makes it __simpler:__ this reduces the risk of architectural errors, e.g., APIs without pagination.
+
+And finally, automation guarantees a base level of __architecture:__ systems will always have APIs (no more logic in UI controllers), logic will be always shared between UIs and APIs, and predictable for maintenance teams.
+
+
+</details>
+
+</details>
 
 &nbsp;
 
@@ -188,9 +210,6 @@ Automation makes it __faster:__ what used to require weeks or months is now imme
 Automation makes it __simpler:__ this reduces the risk of architectural errors, e.g., APIs without pagination.
 
 And finally, automation guarantees a base level of __architecture:__ systems will always have APIs (no more logic in UI controllers), logic will be always shared between UIs and APIs, and predictable for maintenance teams.
-
-
-
 
 &nbsp;
 ---
