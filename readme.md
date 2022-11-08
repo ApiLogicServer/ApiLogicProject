@@ -203,17 +203,6 @@ API Logic Server is an open source Python project.  It runs as a standard Python
 
 &nbsp;
 
-### Bottom Line: Faster, Simpler, Architectural Quality
-
-Automation makes it __faster:__ what used to require weeks or months is now immediate.  Unblock UI Dev, and engage business users - _early_ - instead of investing in a misunderstanding.
-
-Automation makes it __simpler:__ this reduces the risk of architectural errors, e.g., APIs without pagination.
-
-And finally, automation guarantees a base level of __architecture:__ systems will always have APIs (no more logic in UI controllers), logic will be always shared between UIs and APIs, and predictable for maintenance teams.
-
-&nbsp;
----
-
 # Appendices
 
 Here is some background about API Logic Server.
@@ -225,8 +214,8 @@ Here is some background about API Logic Server.
 
 | About                    | Info                               |
 |:-------------------------|:-----------------------------------|
-| Created                  | August 18, 2022 07:24:31                      |
-| API Logic Server Version | 5.03.34           |
+| Created                  | Nov 7, 2022 07:24:31                      |
+| API Logic Server Version | 6.02.35           |
 | Created in directory     | ../../servers/ApiLogicProject |
 | API Name                 | api          |
 
