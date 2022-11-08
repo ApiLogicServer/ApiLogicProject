@@ -34,7 +34,7 @@ And finally, automation guarantees a base level of __architecture:__ systems wil
 
 ## 1. Open in Codespaces
 
-Open this template project in Codespaces.
+Open [this template project](https://github.com/ApiLogicServer/ApiLogicProject) in Codespaces.
 
 <details markdown>
 
