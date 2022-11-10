@@ -6,13 +6,19 @@
 
 &nbsp;
 
-API Logic Server reads your schema to __create an executable web app project, _instantly:___ an API and an Admin UI. 
+API Logic Server creates __customizable database web app projects:__
 
-__Customize using standard IDEs__ with Python.
+* __Creation is Instant:__ create projects with a single command
 
-__Unique spreadsheet-like business rules__ for multi-table derivations and constraints - 40X more concise than code.
+* __Projects are Highly Functional,__ providing:
 
-Follow the steps below to be up and running in about a minute - no install, no configuration.  You can run the created project to explore its functionality, and how to customize it in VSCode.
+    * __API:__ an endpoint for each table, with filtering, sorting, pagination and related data access
+
+    * __Admin UI:__ multi-page / multi-table apps, with page navigations, automatic joins and declarative hide/show
+
+* __Projects are Customizable, using _your IDE_:__ such as VSCode, PyCharm, etc, for familiar edit/debug services
+
+* __Business Logic Automation:__ using unique rules, extensible with Python
 
 <details markdown>
 
@@ -43,7 +49,7 @@ Open [this template project](https://github.com/ApiLogicServer/ApiLogicProject) 
 
 &nbsp;
 
-<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.jpg?raw=true"></figure> 
+<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.jpg?raw=true"></figure>
 
 &nbsp;
 
@@ -53,7 +59,7 @@ __2. Load the working_software_now project from GitHub__
 
 To access this GitHub project with Codespaces
 
-1. __Open [this page](https://github.com/ApiLogicServer/working_software_now)  _in a new window___, and 
+1. __Open [this page](https://github.com/ApiLogicServer/working_software_now)  _in a new window___, and
 2. Click __Open > Codespaces__ as shown below
 3. You will see an empty project.
 
@@ -125,9 +131,9 @@ In this case, we used a default Customers/Orders database.  To use your own data
 
 The project is ready to run:
 
-1. Use the default __Run Configuration__ to start the server, and 
+1. Use the default __Run Configuration__ to start the server, and
 
-2. Click __Ports > Globe__ to start the web app. 
+2. Click __Ports > Globe__ to start the web app.
 
 <details markdown>
 
@@ -193,7 +199,7 @@ These are great for building great UIs, but
 
 API Logic Server is an open source Python project.  It runs as a standard Python (`pip`) install, or under Docker. It consists of:
 
-* a set of runtimes (api, user interface, data access) for project execution, plus 
+* a set of runtimes (api, user interface, data access) for project execution, plus
 
 * a CLI (Command Language Interface) to create executable projects with a single command
 
@@ -236,7 +242,7 @@ SAFRS is an acronym for SqlAlchemy Flask-Restful Swagger.
 The purpose of this framework is to help python developers create
 a self-documenting JSON API for sqlalchemy database objects and relationships.
 
-These objects are serialized to JSON and 
+These objects are serialized to JSON and
 created, retrieved, updated and deleted through the JSON API.
 Optionally, custom resource object methods can be exposed and invoked using JSON.
 
@@ -251,7 +257,7 @@ swagger/OpenAPI and JSON:API compliant API implementation.
 
 [Transaction Logic for SQLAlchemy Object Models](https://valhuber.github.io/ApiLogicServer/Logic-Why/)
 
-Use Logic Bank to govern SQLAlchemy update transaction logic - 
+Use Logic Bank to govern SQLAlchemy update transaction logic -
 multi-table derivations, constraints, and actions such as sending mail or messages. Logic consists of _both:_
 
 *   **Rules - 40X** more concise using a spreadsheet-like paradigm, and
