@@ -5,5 +5,5 @@
             "filenamePattern": "*.md"
         }
     ],
-    "workbench.startupEditor": "readme"
+    "workbench.startupEditor": ".devcontainer/readme"
 }
