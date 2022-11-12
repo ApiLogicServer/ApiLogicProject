@@ -45,7 +45,7 @@ Automation guarantees a __modern software architecture:__ _container-ready_, _AP
 
 &nbsp;
 
-## 1. Open in Codespaces
+## 1. Open in Codespaces (Done)
 
 Open [this template project](https://github.com/ApiLogicServer/ApiLogicProject) in Codespaces.
 
@@ -93,7 +93,7 @@ You are attached to this machine in your Browser, running VSCode.
 
 &nbsp;
 
-## 2. Create a project
+## 2. Create a project _(Start Here)_
 
 Paste this into the Terminal window:
 
