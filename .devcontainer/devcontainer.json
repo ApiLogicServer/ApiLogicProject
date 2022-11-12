@@ -31,10 +31,20 @@
 		"github-cli": "latest"
 	  },
 
-	  "postAttachCommand": "/bin/bash .devcontainer/setup.sh"
+	"postAttachCommand": "/bin/bash .devcontainer/setup.sh",
 
 	// Uncomment the next line to run commands after the container is created - for example installing curl.
-	// "postCreateCommand": "apt-get update && apt-get install -y curl",
+	
+	"postCreateCommand": "echo create Tutorial project: ApiLogicServer create --project_name=./ --db_url=",
+
+	"customizations": {
+		"codespaces": {
+		  "openFiles": [
+			".devcontainer/readme.md"
+		  ]
+		}
+	  }	
+
 
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
 	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
