@@ -28,8 +28,6 @@ API Logic Server creates __customizable database web app projects:__
 
 &nbsp;
 
-<summary>Why Does It Matter: Faster, Simpler, Modern Architecture</summary>
-
 API Logic Server can dramatically improve web app development:
 
 * Automation makes it __faster:__ what used to require weeks or months is now immediate.  Unblock UI Dev, and engage business users - _early_ - instead of investing in a misunderstanding.
