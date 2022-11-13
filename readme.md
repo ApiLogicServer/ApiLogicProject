@@ -75,14 +75,15 @@ These instructions will continue in Codespaces.
 
 &nbsp;
 
-<summary>What Just Happened</summary>
-
+<summary>What Is Happening</summary>
 
 You will now see the template project - open in VSCode, _in the Browser._  But that's just what you _see..._
 
 Behind the scenes, Codespaces has requisitioned a cloud machine, and loaded the template - with a _complete development environment_ - Python, your dependencies, git, etc.  
 
 You are attached to this machine in your Browser, running VSCode.
+
+These instructions are now visible in VS Code, to minimize window switching.
 
 > :trophy: Pretty remarkable.
 
@@ -95,15 +96,17 @@ You are attached to this machine in your Browser, running VSCode.
 
 ## 2. Create a project _(Start Here)_
 
-Paste this into the Terminal window:
+Paste this into the Terminal window (lower right):
 
 ```
 ApiLogicServer create --project_name=./ --db_url=
 ```
 
+When prompted, _do **not** rebuild the container._
+
 <details markdown>
 
-<summary>What Just Happened</summary>
+<summary>What Is Happening</summary>
 
 &nbsp;
 
@@ -135,22 +138,23 @@ In this case, we used a default Customers/Orders database.  To use your own data
 
 ## 3. Start Server, Admin App
 
-The project is ready to run:
+The project is ready to run.
 
-1. Use the default __Run Configuration__ to start the server, and
-
-2. Click __Ports > Globe__ to start the web app.
+Use the prebuilt Run Configuration to start the server, and the prebuilt Port to start the web app.
 
 <details markdown>
 
-&nbsp;
-
 <summary>Show Me How</summary>
+
+As shown below:
+
+1. Use the default __Run Configuration__ to start the server, and 
+
+2. Click __Ports > Globe__ to start the web app. 
 
 <figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/create-port-launch-simple.jpg?raw=true"></figure>
 
 </details>
-
 &nbsp;
 
 ## 4. Explore the Tutorial
