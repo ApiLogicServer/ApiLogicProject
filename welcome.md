@@ -8,7 +8,7 @@
 
 API Logic Server creates __customizable database web app projects:__
 
-* __Creation is Instant:__ create projects with a single command.  __Projects are Highly Functional,__ providing:
+* Creation is __Instant:__ create projects with a single command.  Projects are __Highly Functional,__ providing:
 
     * __API:__ an endpoint for each table, with filtering, sorting, pagination and related data access
 
