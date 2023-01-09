@@ -41,58 +41,10 @@ API Logic Server is a low-code, developer-friendly approach that leverages autom
 
 </details>
 
-&nbsp;
-
-## 1. Open in Codespaces (Done)
-
-Open [this template project](https://github.com/ApiLogicServer/ApiLogicProject) in Codespaces.
-
-<details markdown>
-
-<summary>Show Me How</summary>
 
 &nbsp;
 
-<figure><img src="https://github.com/valhuber/apilogicserver/wiki/images/git-codespaces/open-on-codespaces.jpg?raw=true"></figure>
-
-&nbsp;
-
-__1. Use your GitHub account__ - no additional sign-up required
-
-__2. Load the working_software_now project from GitHub__
-
-To access this GitHub project with Codespaces
-
-1. __Open [this page](https://github.com/ApiLogicServer/working_software_now)  _in a new window___, and 
-2. Click __Open > Codespaces__ as shown below
-3. You will see an empty project.
-
-These instructions will continue in Codespaces.
-
-<details markdown>
-
-&nbsp;
-
-<summary>What Is Happening</summary>
-
-You will now see the template project - open in VSCode, _in the Browser._  But that's just what you _see..._
-
-Behind the scenes, Codespaces has requisitioned a cloud machine, and loaded the template - with a _complete development environment_ - Python, your dependencies, git, etc.  
-
-You are attached to this machine in your Browser, running VSCode.
-
-These instructions are now visible in VS Code, to minimize window switching.
-
-> :trophy: Pretty remarkable.
-
-</details>
-
-</details>
-
-
-&nbsp;
-
-## 2. Create a project _(Start Here)_
+## 1. Create a project _(Start Here)_
 
 Paste this into the Terminal window (lower right):
 
@@ -134,7 +86,7 @@ In this case, we used a default Customers/Orders database.  To use your own data
 
 &nbsp;
 
-## 3. Start Server, Admin App
+## 2. Start Server, Admin App
 
 The project is ready to run.
 
@@ -155,7 +107,7 @@ As shown below:
 </details>
 &nbsp;
 
-## 4. Explore the Tutorial
+## 3. Explore the Tutorial
 
 [Open the Tutorial](Tutorial.md) to explore the sample project.
 
