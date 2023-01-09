@@ -44,7 +44,7 @@ API Logic Server is a low-code, developer-friendly approach that leverages autom
 
 &nbsp;
 
-## 1. Create a project _(Start Here)_
+## 1. Create a project
 
 Paste this into the Terminal window (lower right):
 
